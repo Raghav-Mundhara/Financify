@@ -12,7 +12,6 @@ export const ngoMiddleware=(req,res,next)=>{
         }catch(err){
             return res.json({err})
         }
-        next();
     }else{
         return res.json({
             msg:"Unauthorized Access"

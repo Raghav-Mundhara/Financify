@@ -5,6 +5,10 @@ const StudentSchema=new mongoose.Schema({
         type:String,
         required:true,
     },
+    email:{
+        type:String,
+        required:true
+    },
     age:{
         type:Number,
         required:true
@@ -17,15 +21,13 @@ const StudentSchema=new mongoose.Schema({
         type:mongoose.Schema.Types.ObjectId,
         ref:'NGO'
     },
-    address:{
-        type:String,
-    },
     todos:{
         type:mongoose.Schema.Types.ObjectId,
         ref:'Todo'
     },
     virtualCurrency:{
-        type:Number
+        type:Number,
+        default:0
     }
 });
 
