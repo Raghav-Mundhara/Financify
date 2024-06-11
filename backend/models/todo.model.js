@@ -7,10 +7,11 @@ const todoSchema=new mongoose.Schema({
     },
     description:{
         type:String,
-        require:true
+        required:true
     },
     completed:{
-        type:Boolean
+        type:Boolean,
+        default:false
     },
     studentId:{
         type:mongoose.Schema.Types.ObjectId,
