@@ -28,6 +28,10 @@ const StudentSchema=new mongoose.Schema({
     virtualCurrency:{
         type:Number,
         default:0
+    },
+    password:{
+        type:String,
+        required:true
     }
 });
 

@@ -27,6 +27,8 @@ const studentAddSchema=zod.object({
     income:zod.number(),
     email: zod.string().email()
 })
+
+//NGO Register (Working)
 ngoRouter.post('/register', async (req, res) => {
     const parseResult=registerSchema.safeParse(req.body);
     if(!parseResult.success){
@@ -51,6 +53,7 @@ ngoRouter.post('/register', async (req, res) => {
     }
 })
 
+//NGO SignIn (Working)
 ngoRouter.post("/signin", async (req, res) => {
     const parseResult = signinSchema.safeParse(req.body);
     if (parseResult.success) {
@@ -82,10 +85,13 @@ ngoRouter.post("/signin", async (req, res) => {
     }
 })
 
+//NGO Dashboard , Get all students (Working)
 ngoRouter.get("/home", ngoMiddleware, async (req, res) => {
     var student;
     try {
-        student = await studentModel.find();
+        student = await studentModel.find({
+            ngo: req.userId
+        });
         return res.status(200).json(student)
     } catch (err) {
         console.log({ "Error": err });
@@ -93,34 +99,64 @@ ngoRouter.get("/home", ngoMiddleware, async (req, res) => {
     }
 });
 
-ngoRouter.post('/addstudent',ngoMiddleware,async (req,res)=>{
-    const parseResult=studentAddSchema.safeParse(req.body);
-    if(!parseResult.success){
-        return res.status(400).json({msg:"Invalid Data"});
-    }
-    try {
-        const students=await studentModel.find({
-            email:req.body.email
+// NGO Get all requests  (Working)
+ngoRouter.get('/getRequest',ngoMiddleware,async (req,res)=>{
+    try{
+        const ngo=await ngoModel.findOne({
+            _id:req.userId
         });
-        if(students.length<1){
-            const student=await studentModel.create({
-                name:req.body.name,
-                age:req.body.age,
-                income:req.body.income,
-                ngo:req.userId,
-                email:req.body.email
-            });
-            return res.status(200).json({
-                msg:"Student Added!",
-                student
-            })
-        }else{
-            return res.status(400).json({msg:"Student with same email already exists!"})
+        return res.status(200).json(ngo.requests);
+    }catch(err){
+        return res.status(400).json({err});
+    }
+});
+
+//NGO Add Student (Working)
+ngoRouter.put('/approveStudent/:id',ngoMiddleware,async(req,res)=>{
+    const studentId=req.params.id;
+    console.log(studentId);
+    try{
+        const student=await studentModel.findOne({
+            _id:studentId
+        });
+        if(!student){
+            return res.status(400).json({msg:"No student found!"})
         }
-    } catch (error) {
+
+        const response=await ngoModel.updateOne({
+            _id:req.userId
+        },{
+            $push:{
+                student:studentId
+            }
+        });
+
+        await ngoModel.updateOne({
+            _id:req.userId
+        },{
+            $pull:{
+                requests:studentId
+            }
+        });
+
+        await studentModel.updateOne({
+            _id:studentId
+        },{
+            $set:{
+                ngo:req.userId
+            }
+        });
+
+        return res.status(200).json({
+            msg:"Student Approved!",
+            response
+        })
+    }catch(error){
+        console.log("Error");
         return res.status(400).json({
             error
         })
     }
 })
+
 export default ngoRouter;

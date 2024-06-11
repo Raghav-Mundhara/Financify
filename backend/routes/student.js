@@ -5,7 +5,7 @@ import studentModel from '../models/student.model.js';
 import ngoModel from '../models/ngo.model.js';
 import todoModel from '../models/todo.model.js';
 import dotenv from "dotenv";
-import { studentMiddleware } from '../middlewares/student.js'; // Make sure this middleware is defined
+import { ngoMiddleware } from '../middlewares/ngo.js'; // Make sure this middleware is defined
 dotenv.config();
 const studentRouter = express.Router();
 
@@ -15,6 +15,7 @@ const registerSchema = zod.object({
     age: zod.number().min(1).max(100),
     income: zod.number(),
     address: zod.string(),
+    password: zod.string().min(6),
     // ngoId: zod.string(), 
     // virtualCurrency: zod.number().default(0)
 });
@@ -25,7 +26,7 @@ const signinSchema = zod.object({
 });
 
 
-
+//Student Register (Working)
 studentRouter.post('/register', async (req, res) => {
     const parseResult = registerSchema.safeParse(req.body);
     if (!parseResult.success) {
@@ -45,10 +46,18 @@ studentRouter.post('/register', async (req, res) => {
             email: req.body.email,
             age: req.body.age,
             income: req.body.income,
+            password: req.body.password,
             address: req.body.address,
-            ngo: req.body.ngoId,
-            // virtualCurrency: req.body.virtualCurrency
         });
+
+        await ngoModel.findByIdAndUpdate(
+            req.body.ngoId,
+            {
+                $push:
+                    { requests: student._id }
+            }
+        )
+
         const token = jwt.sign({ id: student._id }, process.env.JWT_SECRET);
         return res.status(200).json({ token });
     } catch (error) {
@@ -56,6 +65,7 @@ studentRouter.post('/register', async (req, res) => {
     }
 });
 
+//Student SignIn (Working)
 studentRouter.post("/signin", async (req, res) => {
     const parseResult = signinSchema.safeParse(req.body);
     if (parseResult.success) {
@@ -68,7 +78,9 @@ studentRouter.post("/signin", async (req, res) => {
             if (!student) {
                 return res.status(400).json({ msg: "Invalid Credentials" });
             }
-
+            if(!student.ngo){
+                return res.status(400).json({msg:"NGO not approved your request yet"});
+            }
             const token = jwt.sign({ id: student._id }, process.env.JWT_SECRET);
             req.headers.authorization = token;
             return res.status(200).json({ msg: "SignIn Success", token });
@@ -80,7 +92,7 @@ studentRouter.post("/signin", async (req, res) => {
     }
 });
 
-studentRouter.get("/profile", studentMiddleware, async (req, res) => {
+studentRouter.get("/profile", ngoMiddleware, async (req, res) => {
     try {
         const student = await studentModel.findById(req.userId).populate('ngo', 'name');
         if (!student) {
@@ -93,7 +105,7 @@ studentRouter.get("/profile", studentMiddleware, async (req, res) => {
     }
 });
 
-studentRouter.put('/updatePoints', studentMiddleware, async (req, res) => {
+studentRouter.put('/updatePoints', ngoMiddleware, async (req, res) => {
     const { amount } = req.body;
     if (typeof amount !== 'number') {
         return res.status(400).json({ msg: "Invalid amount" });
@@ -112,11 +124,11 @@ studentRouter.put('/updatePoints', studentMiddleware, async (req, res) => {
 });
 
 
-studentRouter.get('/todos', studentMiddleware, async (req, res) => {
+studentRouter.get('/todos', ngoMiddleware, async (req, res) => {
     try {
         const { todoId, action } = req.query;
         if (action === 'markComplete') {
-            
+
             const todo = await todoModel.findById(todoId);
             if (!todo) {
                 return res.status(404).json({ msg: "Todo not found" });
@@ -128,7 +140,7 @@ studentRouter.get('/todos', studentMiddleware, async (req, res) => {
             await todo.save();
             return res.status(200).json({ msg: "Todo marked as complete", todo });
         } else {
-            
+
             const todos = await todoModel.find({ studentId: req.userId });
             return res.status(200).json(todos);
         }
