@@ -19,7 +19,7 @@ const StudentSchema=new mongoose.Schema({
     },
     ngo:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:'NGO'
+        ref:'Ngo'
     },
     todos:{
         type:mongoose.Schema.Types.ObjectId,

@@ -92,13 +92,15 @@ studentRouter.post("/signin", async (req, res) => {
     }
 });
 
+//Student Dashboard (Working)
 studentRouter.get("/profile", ngoMiddleware, async (req, res) => {
     try {
-        const student = await studentModel.findById(req.userId).populate('ngo', 'name');
+        const student = await studentModel.findById(req.userId);
+        const ngo = await ngoModel.findById(student.ngo);
         if (!student) {
             return res.status(404).json({ msg: "Student not found" });
         }
-        return res.status(200).json(student);
+        return res.status(200).json({student, ngo});
     } catch (err) {
         console.log({ "Error": err });
         return res.status(400).json(err);
