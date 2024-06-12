@@ -41,7 +41,7 @@ export default function SignUpNgo() {
                             setPassword(e.target.value)
                         }
                     } />
-                    <InputBox type="text" placeholder="1234567890" label="Contact" onChange={
+                    <InputBox type="number" placeholder="1234567890" label="Contact" onChange={
                         (e) => {
                             setContact(e.target.value)
                         }

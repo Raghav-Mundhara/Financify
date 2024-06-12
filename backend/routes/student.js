@@ -16,8 +16,7 @@ const registerSchema = zod.object({
     income: zod.number(),
     address: zod.string(),
     password: zod.string().min(6),
-    // ngoId: zod.string(), 
-    // virtualCurrency: zod.number().default(0)
+    
 });
 
 const signinSchema = zod.object({
