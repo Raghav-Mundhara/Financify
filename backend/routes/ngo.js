@@ -13,7 +13,7 @@ const registerSchema = zod.object({
     address: zod.string(),
     email: zod.string().email(),
     password: zod.string(),
-    contact: zod.number().min(1000000000).max(9999999999),
+    contact: zod.string().min(10).max(10),
 });
 
 const signinSchema = zod.object({
@@ -34,6 +34,7 @@ ngoRouter.post('/register', async (req, res) => {
     if(!parseResult.success){
         return res.status(400).json({msg:"Invalid Data"});
     }
+    console.log(req.body);
     try {
         const result=await ngoModel.find({email:req.body.email});
         if(result.length>0){

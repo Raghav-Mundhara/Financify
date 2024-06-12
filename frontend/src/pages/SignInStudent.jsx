@@ -30,14 +30,16 @@ export default function SignIn() {
                                     email,
                                     password
                                 };
-                                const response=await axios.post("http://localhost:3000/api/v1/user/signin",body,{
+                                const response=await axios.post("http://localhost:3000/student/signin",body,{
                                     headers: {
                                         'Content-Type': 'application/json',
                                         'Content-Length':body.length
                                     }});
-                                if(localStorage.getItem(token)===response.data.token){
+                                if(response.data.token){
+                                    localStorage.setItem("token",response.data.token);
                                     navigate('/dashboard')
                                 }
+
                             } catch (error) {
                                 alert(error)
                             }
