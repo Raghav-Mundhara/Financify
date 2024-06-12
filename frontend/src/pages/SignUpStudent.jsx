@@ -58,7 +58,7 @@ export default function SignUp() {
                             } catch (error) {
                                 alert(error.message)
                             }
-                            // navigate("/dashboard");
+                            
 
                         }
                     } />

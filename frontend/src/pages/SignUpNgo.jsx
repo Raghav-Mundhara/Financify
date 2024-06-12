@@ -62,7 +62,7 @@ export default function SignUpNgo() {
                                     }
                                 });
                                 localStorage.setItem("token", response.data.token);
-                                navigate("/dashboard"); // Navigate to dashboard after successful signup
+                                navigate("/dashboard"); 
                             } catch (error) {
                                 alert(error.message);
                             }
