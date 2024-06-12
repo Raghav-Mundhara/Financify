@@ -49,7 +49,7 @@ ngoRouter.post('/register', async (req, res) => {
         const token = jwt.sign({id:NGO._id},process.env.JWT_SECRET);
         return res.status(200).json({token});
     } catch (error) {
-        return res.status(400).json({error:"Eror"})
+        return res.status(400).json({error:"Error"})
     }
 })
 
