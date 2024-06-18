@@ -1,41 +1,63 @@
-import react, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-export default function NGORequests(){
-    const [requests,setRequests]=useState([]);
 
-    const getRequests=async()=>{
-        const token=localStorage.getItem('token');
-        const config={
-            headers:{
-                authorization:`${token}`,
+export default function NGORequests() {
+    const [requests, setRequests] = useState([]);
+    const [students, setStudents] = useState([]);
+
+    const getRequests = async () => {
+        const token = localStorage.getItem('token');
+        const config = {
+            headers: {
+                authorization: `${token}`,
             },
-        }
+        };
         try {
-            const {data}=await axios.get('http://localhost:3000/ngo/getRequest',config);
+            const { data } = await axios.get('http://localhost:3000/ngo/getRequest', config);
             setRequests(data);
         } catch (error) {
-            alert("Error:",error)
+            alert('Error:', error);
         }
-    }
+    };
 
+    const getStudents = async (id) => {
+        const token = localStorage.getItem('token');
+        const config = {
+            headers: {
+                authorization: `${token}`,
+            },
+        };
+        try {
+            const { data } = await axios.get(`http://localhost:3000/utils/student/${id}`, config);
+            return data;
+        } catch (error) {
+            alert('Error:', error);
+        }
+    };
 
-    useState(()=>{
+    useEffect(() => {
+        console.log('useEffect');
         getRequests();
-    },[])
-    console.log(requests);
-    return <div>
-        <h1>NGO Requests</h1>
+        console.log('requests', requests);
+        requests.map(async (request) => {
+            const student = await getStudents(request);
+            setStudents([...students, student]);
+        });
+    }, []);
+
+
+    return (
         <div>
-            {/* {requests.map((request,index)=>{
-                return <div key={index}>
-                    <h3>{request.name}</h3>
-                    <p>{request.email}</p>
-                    <p>{request.phone}</p>
-                    <p>{request.age}</p>
+            <h1>NGO Requests</h1>
+            {console.log(students)}
+            <div>
+                {students.map((student, index) => (
+                    <div key={index}>
+                        <h2>{student.name}</h2>
+                        <p>{student.details}</p>
                     </div>
-            }
-            )} */}
-            {/* {requests} */}
+                ))}
+            </div>
         </div>
-    </div>
+    );
 }

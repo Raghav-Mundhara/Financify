@@ -41,7 +41,7 @@ export default function SignIn() {
                                 }
 
                             } catch (error) {
-                                alert(error)
+                                alert(error.response.data.msg)
                             }
                         }
                     }/>
