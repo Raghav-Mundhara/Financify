@@ -89,6 +89,7 @@ ngoRouter.post("/signin", async (req, res) => {
 //NGO Dashboard , Get all students (Working)
 ngoRouter.get("/home", ngoMiddleware, async (req, res) => {
     var student;
+    console.log(req.userId);
     try {
         student = await studentModel.find({
             ngo: req.userId
@@ -147,7 +148,7 @@ ngoRouter.put('/approveStudent/:id',ngoMiddleware,async(req,res)=>{
                 ngo:req.userId
             }
         });
-
+        console.log("approved");
         return res.status(200).json({
             msg:"Student Approved!",
             response
@@ -160,4 +161,34 @@ ngoRouter.put('/approveStudent/:id',ngoMiddleware,async(req,res)=>{
     }
 })
 
+//NGO Reject Student (Working)
+ngoRouter.put('/rejectStudent/:id',ngoMiddleware,async(req,res)=>{
+    const studentId=req.params.id;
+    try{
+        const student=await studentModel.findOne({
+            _id:studentId
+        });
+        if(!student){
+            return res.status(400).json({msg:"No student found!"})
+        }
+
+        const response=await ngoModel.updateOne({
+            _id:req.userId
+        },{
+            $pull:{
+                requests:studentId
+            }
+        });
+
+        return res.status(200).json({
+            msg:"Student Rejected!",
+            response
+        })
+    }catch(error){
+        console.log("Error");
+        return res.status(400).json({
+            error
+        })
+    }
+});
 export default ngoRouter;
