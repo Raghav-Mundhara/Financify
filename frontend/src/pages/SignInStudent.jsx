@@ -37,7 +37,7 @@ export default function SignIn() {
                                     }});
                                 if(response.data.token){
                                     localStorage.setItem("token",response.data.token);
-                                    navigate('/dashboard')
+                                    navigate('/profile')
                                 }
 
                             } catch (error) {
@@ -45,7 +45,7 @@ export default function SignIn() {
                             }
                         }
                     }/>
-                    <ButtonWarning label="Don't have an account?" buttonText="Sign Up" to="/signup" />
+                    <ButtonWarning label="Don't have an account?" buttonText="Sign Up" to="/signup-student" />
                 </div>
             </div>
         </div>

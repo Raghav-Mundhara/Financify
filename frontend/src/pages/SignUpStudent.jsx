@@ -63,7 +63,7 @@ export default function SignUp() {
 
                         }
                     } />
-                    <ButtonWarning label={"Already have an account?"} buttonText={"Sign in"} to={"/signin"} />
+                    <ButtonWarning label={"Already have an account?"} buttonText={"Sign in"} to={"/signin-student"} />
                 </div>
             </div>
         </div>
