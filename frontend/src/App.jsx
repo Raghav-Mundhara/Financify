@@ -1,13 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/landingPage'; // Ensure this path is correct
-import SignUpNgo from './pages/SignUpNgo'; // Ensure this path is correct
-import SignInNgo from './pages/SignInNgo'; // Ensure this path is correct
-import SignUpStudent from './pages/SignUpStudent'; // Ensure this path is correct
-import SignInStudent from './pages/SignInStudent'; // Ensure this path is correct
-import NGODashboard from './pages/ngoDashboard';
-// import SendMoney from './pages/SendMoney';
-
+import LandingPage from './pages/landingPage'; 
+import SignUpNgo from './pages/SignUpNgo'; 
+import SignInNgo from './pages/SignInNgo'; 
+import SignUpStudent from './pages/SignUpStudent'; 
+import SignInStudent from './pages/SignInStudent'; 
+import NGODashboard from './pages/NGODashboard';
+import NGORequests from './pages/NGORequests';
 function App() {
   return (
     <BrowserRouter>
@@ -18,7 +17,7 @@ function App() {
         <Route path="/signup-student" element={<SignUpStudent />} />
         <Route path="/signin-student" element={<SignInStudent />} />
         <Route path="/dashboard" element={<NGODashboard />} />
-        {/* <Route path="/send" element={<SendMoney />} /> */}
+        <Route path="/requests" element={<NGORequests />} />
       </Routes>
     </BrowserRouter>
   );

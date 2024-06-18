@@ -48,15 +48,16 @@ export default function SignUp() {
                                     lastName:lName,
                                     password:password
                                 }
-                                const response=await axios.post("http://localhost:3000/api/v1/user/signup",body,{
+                                const response=await axios.post("http://localhost:3000/student/register",body,{
                                     headers: {
                                         'Content-Type': 'application/json',
                                         'Content-Length':body.length
                                     }
                                 });
+                                alert("Registered Successfully");
                                 localStorage.setItem("token",response.data.token);
                             } catch (error) {
-                                alert(error.message)
+                                alert(error.response.data.msg)
                             }
                             
 
