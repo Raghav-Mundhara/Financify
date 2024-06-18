@@ -48,7 +48,7 @@ export default function SignUp() {
                                     lastName:lName,
                                     password:password
                                 }
-                                const response=await axios.post("http://localhost:3000/api/v1/user/signup",body,{
+                                const response=await axios.post("http://localhost:3000/student/register",body,{
                                     headers: {
                                         'Content-Type': 'application/json',
                                         'Content-Length':body.length
@@ -62,7 +62,7 @@ export default function SignUp() {
 
                         }
                     } />
-                    <ButtonWarning label={"Already have an account?"} buttonText={"Sign in"} to={"/signin"} />
+                    <ButtonWarning label={"Already have an account?"} buttonText={"Sign in"} to={"/signin-student"} />
                 </div>
             </div>
         </div>
