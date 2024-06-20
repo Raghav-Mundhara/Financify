@@ -19,7 +19,7 @@ export default function Profile() {
                 }
                 const response = await axios.get('http://localhost:3000/student/profile', {
                     headers: {
-                        'Authorization': `Bearer ${token}`
+                        'Authorization': `${token}`
                     }
                 });
                 setStudent(response.data.student);

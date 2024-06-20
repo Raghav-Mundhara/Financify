@@ -13,7 +13,9 @@ function NgoHeader(props) {
                         Requests {props.count}
                     </button>
                     <div>
-                        <button className='text-md'>
+                        <button className='text-md' onClick={()=>{
+                            navigate('/profile')
+                        }}>
                             Profile
                         </button>
                     </div>

@@ -9,6 +9,7 @@ import SignInStudent from './pages/SignInStudent';
 import NGORequests from './pages/NGORequests';
 import Profile from './pages/ProfilePage';
 import Expense from './pages/Expense';
+import NGODashboard from './pages/NGODashboard';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path="/requests" element={<NGORequests />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/expenses" element={<Expense />} />
-
+        <Route path='/dashboard' element={<NGODashboard />} />
       </Routes>
     </BrowserRouter>
   );
