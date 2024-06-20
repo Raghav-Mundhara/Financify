@@ -48,6 +48,13 @@ export default function Profile() {
                         <p><strong>Virtual Currency:</strong> {student.virtualCurrency}</p>
                         <p><strong>NGO:</strong> {ngo.name}</p>
                     </div>
+                    <div>
+                        <button onClick={()=>{
+                            navigate('/expenses');
+                        }}>
+                            Expense
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

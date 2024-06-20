@@ -4,7 +4,7 @@ dotenv.config();
 export const ngoMiddleware=(req,res,next)=>{
     console.log("Middleware check!");
     const token=req.headers.authorization;
-    console.log(token);
+    // console.log(token);
     if(token){
         try{
             const result=jwt.verify(token,process.env.JWT_SECRET);

@@ -21,8 +21,14 @@ export default function Expense() {
     }, []);
 
     const fetchExpenses = async () => {
+
         try {
-            const response = await axios.get('http://localhost:3000/expense/all');
+            const response = await axios.get('http://localhost:3000/expense/all',{
+                headers: {
+                    'Authorization': `${localStorage.getItem('token')}`
+                }
+            
+            });
             setExpenses(response.data);
         } catch (error) {
             alert(error.message);
@@ -34,6 +40,11 @@ export default function Expense() {
             await axios.post('http://localhost:3000/expense/add', {
                 ...newExpense,
                 date: new Date(newExpense.date)  // Convert date string to Date object
+            },{
+                headers: {
+                    'Authorization': `${localStorage.getItem('token')}`
+                }
+            
             });
             setNewExpense({
                 description: '',
@@ -52,6 +63,11 @@ export default function Expense() {
             await axios.put(`http://localhost:3000/expense/update/${selectedExpense._id}`, {
                 ...newExpense,
                 date: new Date(newExpense.date)  // Convert date string to Date object
+            },{
+                headers: {
+                    'Authorization': `${localStorage.getItem('token')}`
+                }
+            
             });
             setNewExpense({
                 description: '',
@@ -68,7 +84,12 @@ export default function Expense() {
 
     const handleDeleteExpense = async (id) => {
         try {
-            await axios.delete(`http://localhost:3000/expense/delete/${id}`);
+            await axios.delete(`http://localhost:3000/expense/delete/${id}`,{
+                headers: {
+                    'Authorization': `${localStorage.getItem('token')}`
+                }
+            
+            });
             fetchExpenses();
         } catch (error) {
             alert(error.message);
