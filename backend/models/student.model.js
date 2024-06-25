@@ -32,7 +32,8 @@ const StudentSchema=new mongoose.Schema({
     password:{
         type:String,
         required:true
-    }
+    },
+    
 });
 
 const studentModel= mongoose.model('Student',StudentSchema);

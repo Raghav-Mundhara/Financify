@@ -23,6 +23,7 @@ const ExpenseSchema = new mongoose.Schema({
         ref: 'Student',
         required: true
     }
+    
 });
 
 const Expense = mongoose.model('Expense', ExpenseSchema);
