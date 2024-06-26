@@ -9,7 +9,7 @@ import SignInStudent from './pages/SignInStudent';
 import NGORequests from './pages/NGORequests';
 import Profile from './pages/ProfilePage';
 import Expense from './pages/Expense';
-import NGODashboard from './pages/ngoDashboard';
+import NGODashboard from './pages/NGODashboard';
 import Rewards from './pages/Rewards';
  
 
