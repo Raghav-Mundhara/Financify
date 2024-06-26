@@ -38,7 +38,7 @@ export default function SignInNgo() {
                                 });
                                 if (response.data.token) {
                                     localStorage.setItem("token", response.data.token);
-                                    navigate('/dashboard');
+                                    navigate('/ngoDashboard');
                                 } else {
                                     alert(response.data.msg);
                                 }

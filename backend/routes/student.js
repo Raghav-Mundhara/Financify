@@ -151,6 +151,73 @@ studentRouter.get('/todos', ngoMiddleware, async (req, res) => {
     }
 });
 
+studentRouter.get('/calculate-savings', ngoMiddleware, async (req, res) => {
+    try {
+        const student = await studentModel.findById(req.userId);
+        if (!student) {
+            return res.status(404).json({ msg: "Student not found" });
+        }
+
+        // Get expenses for the current month
+        const startOfMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1);
+        const expenses = await expenseModel.find({ 
+            studentId: req.userId, 
+            date: { $gte: startOfMonth } 
+        });
+
+        const totalExpenses = expenses.reduce((total, expense) => total + expense.amount, 0);
+        const savings = student.income - totalExpenses;
+
+        // Check if savings are within 25% - 30% of income
+        const minSavings = student.income * 0.25;
+        const maxSavings = student.income * 0.30;
+        const isEligibleForReward = savings >= minSavings && savings <= maxSavings;
+
+        return res.status(200).json({
+            isEligibleForReward,
+            savings,
+            virtualCurrency: student.virtualCurrency
+        });
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({ error: "Server Error" });
+    }
+});
+
+// New route to add reward to virtual currency
+studentRouter.put('/add-reward', ngoMiddleware, async (req, res) => {
+    try {
+        const student = await studentModel.findById(req.userId);
+        if (!student) {
+            return res.status(404).json({ msg: "Student not found" });
+        }
+
+        // Get expenses for the current month
+        const startOfMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1);
+        const expenses = await expenseModel.find({ 
+            studentId: req.userId, 
+            date: { $gte: startOfMonth } 
+        });
+
+        const totalExpenses = expenses.reduce((total, expense) => total + expense.amount, 0);
+        const savings = student.income - totalExpenses;
+
+        const minSavings = student.income * 0.25;
+        const maxSavings = student.income * 0.30;
+        const isEligibleForReward = savings >= minSavings && savings <= maxSavings;
+
+        if (isEligibleForReward) {
+            student.virtualCurrency += 350;
+            await student.save();
+            return res.status(200).json({ msg: "Reward granted", virtualCurrency: student.virtualCurrency });
+        } else {
+            return res.status(400).json({ msg: "Not eligible for reward" });
+        }
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({ error: "Server Error" });
+    }
+});
 
 
 

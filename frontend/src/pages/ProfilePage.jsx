@@ -35,27 +35,41 @@ export default function Profile() {
     if (!student || !ngo) return <div>Loading...</div>;
 
     return (
-        <div className='bg-navy-800 h-screen flex justify-center pt-10'>
-            <div className='flex flex-column justify-center'>
-                <div className='rounded-lg bg-white text-center p-2 h-max px-4'>
-                    <Heading title="Profile" />
-                    <SubHeading subheading="Your account details" />
-                    <div className='text-left px-4'>
-                        <p><strong>Name:</strong> {student.name}</p>
-                        <p><strong>Email:</strong> {student.email}</p>
-                        <p><strong>Age:</strong> {student.age}</p>
-                        <p><strong>Income:</strong> {student.income}</p>
-                        <p><strong>Virtual Currency:</strong> {student.virtualCurrency}</p>
-                        <p><strong>NGO:</strong> {ngo.name}</p>
+        <div className='bg-navy h-screen flex'>
+            <div className='w-1/4 bg-white text-black p-4'>
+                <Heading title="Profile" />
+                <SubHeading subheading="Your account details" />
+                <div className='mt-4'>
+                    <div className='py-2'>
+                        <strong>Name:</strong> {student.name}
                     </div>
-                    <div>
-                        <button onClick={()=>{
-                            navigate('/expenses');
-                        }}>
-                            Expense
+                    <div className='py-2'>
+                        <strong>Email:</strong> {student.email}
+                    </div>
+                    <div className='py-2'>
+                        <strong>Age:</strong> {student.age}
+                    </div>
+                    <div className='py-2'>
+                        <strong>Income:</strong> {student.income}
+                    </div>
+                    <div className='py-2'>
+                        <strong>Virtual Currency:</strong> {student.virtualCurrency}
+                    </div>
+                    <div className='py-2'>
+                        <strong>NGO:</strong> {ngo.name}
+                    </div>
+                    <div className='mt-4'>
+                        <button
+                            className='bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300'
+                            onClick={() => navigate('/expenses')}
+                        >
+                            Track my Expenses
                         </button>
                     </div>
                 </div>
+            </div>
+            <div className='flex-1 p-10'>
+                {/* Additional content can be placed here */}
             </div>
         </div>
     );

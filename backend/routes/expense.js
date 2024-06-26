@@ -1,10 +1,10 @@
 import express from 'express';
 import zod from 'zod';
 import Expense from '../models/expense.model.js';
+import studentModel from '../models/student.model.js';
 import { studentMiddleware } from '../middlewares/student.js';
 import mongoose from 'mongoose';
 const expenseRouter = express.Router();
-
 
 const expenseSchema = zod.object({
     description: zod.string().min(1),
@@ -13,7 +13,6 @@ const expenseSchema = zod.object({
     category: zod.string().min(1),
     studentId: zod.string().min(1)   
 });
-
 
 expenseRouter.get('/all', studentMiddleware, async (req, res) => {
     try {
@@ -25,17 +24,17 @@ expenseRouter.get('/all', studentMiddleware, async (req, res) => {
     }
 });
 
-
 expenseRouter.post('/add', studentMiddleware, async (req, res) => {
-    const parseResult = expenseSchema.safeParse({
-        ...req.body,
-        date: new Date(req.body.date),  
-        studentId: req.userId
-    });
-    if (!parseResult.success) {
-        return res.status(400).json({ msg: "Invalid Data" });
-    }
     try {
+        const parseResult = expenseSchema.safeParse({
+            ...req.body,
+            date: new Date(req.body.date),  
+            studentId: req.userId
+        });
+        if (!parseResult.success) {
+            console.error("Validation error:", parseResult.error);
+            return res.status(400).json({ msg: "Invalid Data", error: parseResult.error });
+        }
         const expense = new Expense(parseResult.data);
         await expense.save();
         return res.status(201).json(expense);
@@ -45,22 +44,20 @@ expenseRouter.post('/add', studentMiddleware, async (req, res) => {
     }
 });
 
-
 expenseRouter.put('/update/:id', studentMiddleware, async (req, res) => {
-    console.log(req.params.id);
-    console.log(typeof req.params.id);
     if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
         return res.status(400).json({ msg: "Invalid ID format" });
     }
-    const parseResult = expenseSchema.safeParse({
-        ...req.body,
-        date: new Date(req.body.date),  
-        studentId: req.userId  
-    });
-    if (!parseResult.success) {
-        return res.status(400).json({ msg: "Invalid Data" });
-    }
     try {
+        const parseResult = expenseSchema.safeParse({
+            ...req.body,
+            date: new Date(req.body.date),  
+            studentId: req.userId  
+        });
+        if (!parseResult.success) {
+            console.error("Validation error:", parseResult.error);
+            return res.status(400).json({ msg: "Invalid Data", error: parseResult.error });
+        }
         const expense = await Expense.findOneAndUpdate(
             { _id: req.params.id, studentId: req.userId },
             parseResult.data,
@@ -75,7 +72,6 @@ expenseRouter.put('/update/:id', studentMiddleware, async (req, res) => {
         return res.status(400).json({ error: 'Error updating expense' });
     }
 });
-
 
 expenseRouter.delete('/delete/:id', studentMiddleware, async (req, res) => {
     try {
