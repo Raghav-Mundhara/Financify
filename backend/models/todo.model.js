@@ -17,7 +17,7 @@ const todoSchema=new mongoose.Schema({
         type:mongoose.Schema.Types.ObjectId,
         ref:'Student'
     },
-    point:{
+    points:{
         type:Number,
         require:true,
     }
