@@ -1,1001 +1,1001 @@
 risk,income,roi,points,literacy,investin
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,>5Lakhs,Med,6-8,low,Mutual Funds
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
 Medium,3-5Lakhs,High,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,high,Mutual Funds
+Medium,>5Lakhs,High,3-5,high,FD
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
 Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,3-5,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,High,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,3-5,low,FD
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,med,FD
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,>5Lakhs,Med,3-5,high,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,Low,>8,high,FD
 Medium,<3Lakhs,Low,6-8,high,FD
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,>8,low,Mutual Funds
-Medium,3-5Lakhs,Med,>8,high,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,<3Lakhs,Med,>8,high,FD
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,>5Lakhs,Med,6-8,low,Mutual Funds
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,<3Lakhs,Med,6-8,med,FD
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,<3Lakhs,High,3-5,high,FD
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,<3Lakhs,High,>8,high,FD
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,Med,3-5,med,FD
 Medium,<3Lakhs,High,3-5,med,FD
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,3-5,low,FD
-Medium,<3Lakhs,High,>8,high,FD
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
-Medium,>5Lakhs,Med,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,3-5Lakhs,High,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,>5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,<3Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,Med,6-8,med,FD
+Medium,>5Lakhs,High,3-5,high,FD
 Medium,<3Lakhs,High,>8,low,FD
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,med,FD
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,<3Lakhs,Med,3-5,low,FD
-Low,>5Lakhs,High,>8,high,FD
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,<3Lakhs,Med,6-8,med,FD
+Medium,>5Lakhs,Med,3-5,high,FD
 Medium,<3Lakhs,Low,3-5,high,FD
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,<3Lakhs,Low,>8,med,FD
-Medium,<3Lakhs,High,>8,med,FD
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,>8,low,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-High,<3Lakhs,Low,3-5,low,FD
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,<3Lakhs,Med,>8,high,FD
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,<3Lakhs,Low,6-8,high,FD
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,High,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,>8,low,FD
-Medium,<3Lakhs,Med,>8,med,FD
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,3-5,low,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Medium,<3Lakhs,Med,6-8,med,FD
-Medium,<3Lakhs,Med,>8,med,FD
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,3-5Lakhs,High,>8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
-Medium,<3Lakhs,Med,>8,med,FD
-Medium,3-5Lakhs,Med,>8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Low,>5Lakhs,High,>8,high,FD
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,<3Lakhs,Med,6-8,low,FD
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,>5Lakhs,Med,6-8,low,Mutual Funds
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,>5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,<3Lakhs,Low,>8,low,FD
 Medium,<3Lakhs,Med,3-5,high,FD
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,<3Lakhs,Med,>8,med,FD
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,>8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,<3Lakhs,Low,6-8,high,FD
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-Medium,<3Lakhs,Med,>8,high,FD
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,3-5,low,Mutual Funds
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
-Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,3-5Lakhs,High,3-5,low,Mutual Funds
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,<3Lakhs,High,>8,high,FD
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,6-8,med,FD
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,3-5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,3-5,low,FD
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,<3Lakhs,High,>8,high,FD
-Medium,<3Lakhs,Med,6-8,low,FD
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
 Medium,<3Lakhs,Low,3-5,med,FD
-Medium,<3Lakhs,Low,>8,med,FD
-Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
 Medium,3-5Lakhs,High,6-8,high,Mutual Funds
 Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,<3Lakhs,High,>8,high,FD
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,>5Lakhs,Med,3-5,low,FD
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,>5Lakhs,Med,3-5,high,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,<3Lakhs,High,>8,low,FD
+Medium,>5Lakhs,Low,6-8,high,FD
 Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,<3Lakhs,Med,>8,low,FD
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
 Medium,<3Lakhs,Low,6-8,med,FD
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,<3Lakhs,High,>8,low,FD
 Medium,<3Lakhs,High,6-8,med,FD
 Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Med,>8,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,>8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,<3Lakhs,Low,6-8,high,FD
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,med,Mutual Funds
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,High,>8,low,FD
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,<3Lakhs,Med,6-8,med,FD
-Medium,<3Lakhs,Low,3-5,med,FD
-Medium,3-5Lakhs,High,3-5,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,<3Lakhs,Low,3-5,med,FD
-Medium,<3Lakhs,High,>8,low,FD
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,<3Lakhs,Low,>8,med,FD
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,3-5Lakhs,Med,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,3-5,low,FD
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,3-5Lakhs,High,3-5,low,Mutual Funds
-Medium,<3Lakhs,Low,3-5,med,FD
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,<3Lakhs,High,>8,low,FD
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,<3Lakhs,Med,>8,med,FD
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,low,FD
-Medium,<3Lakhs,Low,6-8,high,FD
-Medium,<3Lakhs,Med,6-8,low,FD
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,3-5Lakhs,High,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,<3Lakhs,High,>8,low,FD
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,med,FD
 Medium,3-5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,Med,>8,high,FD
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,<3Lakhs,Med,>8,high,FD
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
 Medium,<3Lakhs,High,6-8,high,FD
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
 Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,low,Mutual Funds
-Medium,<3Lakhs,Med,6-8,low,FD
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,3-5Lakhs,Med,>8,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,<3Lakhs,Med,>8,high,FD
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,Med,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
+Medium,3-5Lakhs,High,6-8,low,Mutual Funds
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,High,>8,med,FD
+Medium,>5Lakhs,Low,6-8,med,FD
 Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,>5Lakhs,Med,3-5,high,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,>8,low,FD
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,Med,>8,high,FD
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,<3Lakhs,Low,>8,med,FD
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,<3Lakhs,Med,>8,low,FD
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
 Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,>8,low,FD
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,<3Lakhs,High,>8,med,FD
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,High,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
+Medium,>5Lakhs,Low,>8,low,FD
 Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,<3Lakhs,High,>8,low,FD
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,<3Lakhs,High,>8,med,FD
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
-Medium,<3Lakhs,Med,6-8,med,FD
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
-Medium,<3Lakhs,Low,3-5,med,FD
-Medium,>5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,<3Lakhs,Low,>8,med,FD
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,3-5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,Med,3-5,high,Mutual Funds
-Medium,<3Lakhs,Med,6-8,med,FD
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,Med,>8,low,FD
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,<3Lakhs,Med,3-5,low,FD
-High,<3Lakhs,Low,3-5,low,FD
-Medium,3-5Lakhs,High,3-5,low,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,med,FD
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,<3Lakhs,Med,>8,low,FD
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,>5Lakhs,High,3-5,high,FD
+Medium,>5Lakhs,Med,3-5,med,FD
 Medium,<3Lakhs,Med,>8,high,FD
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
+Medium,>5Lakhs,Med,6-8,low,FD
 Medium,3-5Lakhs,High,>8,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,>8,low,FD
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
-Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,>8,med,FD
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
+Medium,>5Lakhs,Med,>8,med,FD
 Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,<3Lakhs,High,>8,low,FD
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
 Medium,<3Lakhs,Med,>8,high,FD
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,<3Lakhs,Med,>8,med,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,3-5Lakhs,Low,>8,med,Mutual Funds
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Low,<3Lakhs,Low,3-5,low,FD
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
 Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
 Medium,<3Lakhs,Med,>8,med,FD
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,low,FD
-Medium,<3Lakhs,High,>8,med,FD
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,Med,6-8,med,FD
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,<3Lakhs,Low,3-5,med,FD
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,>5Lakhs,Low,>8,med,Mutual Funds
-Medium,>5Lakhs,Med,6-8,low,Mutual Funds
-Medium,3-5Lakhs,Med,>8,high,Mutual Funds
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
 Medium,3-5Lakhs,High,>8,med,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,<3Lakhs,High,>8,low,FD
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,low,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,<3Lakhs,High,>8,med,FD
-Low,>5Lakhs,High,>8,high,FD
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
+Medium,<3Lakhs,High,3-5,med,FD
 Medium,<3Lakhs,Low,>8,low,FD
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
 Medium,3-5Lakhs,Med,>8,low,Mutual Funds
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,<3Lakhs,Low,3-5,med,FD
-Medium,<3Lakhs,Med,>8,med,FD
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,med,FD
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,3-5Lakhs,Med,>8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,<3Lakhs,Med,6-8,low,FD
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,<3Lakhs,Med,6-8,med,FD
-Medium,>5Lakhs,Med,3-5,med,Mutual Funds
+Medium,>5Lakhs,High,3-5,med,FD
+Medium,>5Lakhs,High,3-5,med,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,>5Lakhs,Med,3-5,high,FD
 Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,<3Lakhs,Med,6-8,low,FD
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,<3Lakhs,Med,>8,med,FD
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,<3Lakhs,Med,6-8,low,FD
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,<3Lakhs,High,>8,low,FD
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,>8,high,FD
-Low,>5Lakhs,High,>8,high,FD
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,<3Lakhs,Low,6-8,med,FD
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,<3Lakhs,High,>8,med,FD
-Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,3-5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,<3Lakhs,Med,>8,med,FD
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
 Medium,<3Lakhs,Low,3-5,med,FD
+High,>5Lakhs,High,>8,high,stocks
 Medium,<3Lakhs,Low,>8,high,FD
 Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Med,>8,high,Mutual Funds
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,High,6-8,low,FD
 Medium,<3Lakhs,Low,>8,med,FD
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,3-5Lakhs,Med,>8,high,Mutual Funds
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,>5Lakhs,Med,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
+Medium,>5Lakhs,Low,6-8,med,FD
 Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-High,<3Lakhs,Low,3-5,low,FD
-Medium,<3Lakhs,High,>8,low,FD
-Medium,>5Lakhs,Med,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,3-5Lakhs,High,>8,med,Mutual Funds
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
 Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,<3Lakhs,Low,>8,high,FD
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,Med,>8,low,FD
 Medium,<3Lakhs,High,6-8,high,FD
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,Low,>8,high,Mutual Funds
-Medium,<3Lakhs,High,3-5,low,FD
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
 Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,>5Lakhs,Med,3-5,high,Mutual Funds
+Medium,<3Lakhs,High,>8,low,FD
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,>5Lakhs,High,6-8,med,FD
+Medium,>5Lakhs,High,3-5,high,FD
 Medium,<3Lakhs,High,>8,high,FD
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,med,Mutual Funds
-Medium,3-5Lakhs,High,6-8,med,Mutual Funds
-Medium,>5Lakhs,Med,>8,high,Mutual Funds
-Medium,<3Lakhs,Med,6-8,low,FD
-Medium,<3Lakhs,Med,>8,med,FD
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,>5Lakhs,High,6-8,med,FD
+Medium,<3Lakhs,High,>8,low,FD
+Medium,<3Lakhs,High,3-5,med,FD
 Medium,<3Lakhs,Med,3-5,low,FD
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
+Medium,>5Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,3-5Lakhs,High,6-8,low,Mutual Funds
+Medium,>5Lakhs,High,>8,low,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
 Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,high,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,>8,low,FD
+Medium,<3Lakhs,High,3-5,med,FD
+Medium,<3Lakhs,High,3-5,med,FD
+Medium,>5Lakhs,High,6-8,low,FD
 Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,<3Lakhs,High,>8,high,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,High,6-8,high,FD
+High,>5Lakhs,High,>8,high,stocks
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,High,6-8,med,FD
 Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,<3Lakhs,Med,6-8,low,FD
-Medium,>5Lakhs,Low,>8,low,Mutual Funds
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,>8,med,FD
-Medium,3-5Lakhs,High,>8,med,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,>5Lakhs,Med,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,<3Lakhs,High,>8,med,FD
+Medium,>5Lakhs,Med,6-8,low,FD
 Medium,<3Lakhs,Low,6-8,high,FD
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,<3Lakhs,Low,6-8,low,FD
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,3-5,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,<3Lakhs,Low,6-8,high,FD
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
 Medium,<3Lakhs,Med,6-8,high,FD
+Medium,<3Lakhs,Low,>8,med,FD
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+High,>5Lakhs,High,>8,high,stocks
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,<3Lakhs,High,>8,med,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,>5Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,>5Lakhs,Med,6-8,med,FD
+Medium,<3Lakhs,Med,6-8,low,FD
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,>5Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,<3Lakhs,High,3-5,med,FD
+Medium,<3Lakhs,High,>8,low,FD
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,>5Lakhs,Med,3-5,low,FD
+Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,<3Lakhs,High,>8,low,FD
+Medium,>5Lakhs,High,3-5,high,FD
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,<3Lakhs,High,>8,med,FD
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,<3Lakhs,High,6-8,med,FD
+High,>5Lakhs,High,>8,high,stocks
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,Med,>8,med,Mutual Funds
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,>5Lakhs,High,>8,low,FD
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,<3Lakhs,High,>8,med,FD
+Medium,<3Lakhs,High,>8,high,FD
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,>8,med,FD
+Medium,>5Lakhs,Med,3-5,low,FD
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,>5Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,High,3-5,med,FD
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,<3Lakhs,High,6-8,med,FD
+Low,<3Lakhs,Low,3-5,low,FD
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,>5Lakhs,Low,3-5,low,FD
+High,>5Lakhs,High,>8,high,stocks
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,3-5Lakhs,Low,>8,med,Mutual Funds
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,3-5Lakhs,Low,>8,high,Mutual Funds
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,>5Lakhs,Med,3-5,med,FD
+Low,<3Lakhs,Low,3-5,low,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,High,>8,high,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,>5Lakhs,Med,>8,med,FD
+High,>5Lakhs,High,>8,high,stocks
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,3-5Lakhs,High,6-8,low,Mutual Funds
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,>5Lakhs,Low,3-5,high,FD
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,>8,high,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,Med,>8,high,Mutual Funds
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,>5Lakhs,High,3-5,low,FD
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,>5Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
+Medium,<3Lakhs,High,>8,low,FD
+Medium,>5Lakhs,Med,3-5,low,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,Med,6-8,low,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+High,>5Lakhs,High,>8,high,stocks
+Medium,<3Lakhs,High,>8,low,FD
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,3-5Lakhs,Low,>8,high,Mutual Funds
+Medium,>5Lakhs,High,3-5,low,FD
+Medium,>5Lakhs,Med,3-5,high,FD
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,3-5Lakhs,Med,>8,high,Mutual Funds
+Medium,>5Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,Med,>8,med,FD
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,>5Lakhs,High,6-8,med,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,<3Lakhs,Low,>8,med,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,High,>8,med,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,3-5Lakhs,Med,>8,med,Mutual Funds
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,3-5Lakhs,Low,>8,high,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Med,3-5,low,FD
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,High,6-8,low,Mutual Funds
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,<3Lakhs,Med,>8,med,FD
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,<3Lakhs,Med,3-5,med,FD
+High,>5Lakhs,High,>8,high,stocks
+Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,<3Lakhs,Med,6-8,low,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,>5Lakhs,Med,6-8,med,FD
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,>5Lakhs,Med,6-8,med,FD
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,>5Lakhs,Low,6-8,high,FD
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,3-5Lakhs,High,6-8,low,Mutual Funds
+Medium,<3Lakhs,Low,3-5,high,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,<3Lakhs,High,3-5,med,FD
+Medium,>5Lakhs,High,3-5,low,FD
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,3-5Lakhs,Low,>8,high,Mutual Funds
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,>5Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+High,>5Lakhs,High,>8,high,stocks
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,3-5Lakhs,Low,>8,med,Mutual Funds
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,Low,3-5,high,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,3-5Lakhs,Low,>8,med,Mutual Funds
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,>5Lakhs,High,6-8,low,FD
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,Med,6-8,low,FD
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,<3Lakhs,Med,6-8,low,FD
+Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,<3Lakhs,High,>8,high,FD
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,<3Lakhs,Low,3-5,high,FD
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,>5Lakhs,High,3-5,high,FD
+Low,<3Lakhs,Low,3-5,low,FD
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,>5Lakhs,Med,6-8,med,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,>5Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,>5Lakhs,Low,3-5,high,FD
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,Low,>8,med,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,<3Lakhs,Med,>8,med,FD
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,3-5Lakhs,Low,>8,high,Mutual Funds
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,Med,6-8,low,FD
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,<3Lakhs,High,>8,med,FD
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,>5Lakhs,High,3-5,low,FD
+Medium,3-5Lakhs,High,6-8,low,Mutual Funds
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,High,6-8,low,Mutual Funds
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,<3Lakhs,Low,3-5,high,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,3-5,med,FD
+Medium,>5Lakhs,Med,3-5,high,FD
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,>5Lakhs,High,6-8,low,FD
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,<3Lakhs,Low,3-5,high,FD
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,<3Lakhs,High,>8,low,FD
+Medium,3-5Lakhs,High,6-8,low,Mutual Funds
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,<3Lakhs,Low,>8,med,FD
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,High,3-5,high,FD
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,>5Lakhs,Low,3-5,high,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,High,3-5,med,FD
+Medium,>5Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,Low,>8,med,FD
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,3-5Lakhs,Low,>8,med,Mutual Funds
+Medium,<3Lakhs,High,>8,high,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,<3Lakhs,High,>8,med,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,3-5Lakhs,Med,>8,med,Mutual Funds
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,>5Lakhs,High,6-8,med,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,High,3-5,med,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,3-5Lakhs,Med,>8,high,Mutual Funds
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,High,>8,med,FD
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,Low,>8,med,FD
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,<3Lakhs,High,>8,low,FD
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Medium,<3Lakhs,High,>8,low,FD
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,>5Lakhs,Med,3-5,low,FD
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,<3Lakhs,High,>8,med,FD
+Medium,3-5Lakhs,Med,>8,med,Mutual Funds
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,<3Lakhs,Low,3-5,high,FD
+High,>5Lakhs,High,>8,high,stocks
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,<3Lakhs,High,3-5,med,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Low,<3Lakhs,Low,3-5,low,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,<3Lakhs,High,>8,high,FD
+Medium,>5Lakhs,High,3-5,med,FD
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,>5Lakhs,Low,6-8,high,FD
+Medium,<3Lakhs,Med,>8,med,FD
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,<3Lakhs,Med,6-8,low,FD
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,<3Lakhs,High,>8,med,FD
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,Med,6-8,med,FD
+Medium,<3Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,<3Lakhs,High,>8,high,FD
+Medium,>5Lakhs,High,3-5,low,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,>5Lakhs,Med,6-8,med,FD
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,>5Lakhs,Low,3-5,high,FD
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,<3Lakhs,High,>8,high,FD
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,>5Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,High,3-5,high,FD
+Medium,>5Lakhs,Low,3-5,low,FD
 Medium,<3Lakhs,Med,3-5,low,FD
 Medium,<3Lakhs,High,3-5,low,FD
-Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
-Medium,>5Lakhs,High,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,3-5Lakhs,Low,>8,low,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,3-5Lakhs,Med,>8,low,Mutual Funds
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Med,>8,low,Mutual Funds
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
-Medium,>5Lakhs,Med,>8,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,>5Lakhs,Low,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Low,>8,med,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,<3Lakhs,High,>8,med,FD
-Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,>8,low,FD
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,>5Lakhs,Low,>8,low,FD
 Medium,3-5Lakhs,Med,>8,high,Mutual Funds
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,<3Lakhs,Med,3-5,high,FD
-Medium,3-5Lakhs,Low,>8,high,Mutual Funds
-Medium,>5Lakhs,High,6-8,med,Mutual Funds
-Medium,<3Lakhs,Low,>8,med,FD
-Medium,3-5Lakhs,Low,6-8,high,Mutual Funds
-Low,>5Lakhs,High,>8,high,FD
-Medium,>5Lakhs,High,6-8,high,Mutual Funds
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
-Medium,3-5Lakhs,High,6-8,high,Mutual Funds
-Medium,3-5Lakhs,High,6-8,high,Mutual Funds
-Medium,<3Lakhs,High,3-5,med,FD
-Medium,<3Lakhs,Low,3-5,high,FD
-Medium,>5Lakhs,Low,3-5,high,Mutual Funds
-Medium,3-5Lakhs,High,3-5,high,Mutual Funds
-Medium,>5Lakhs,High,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
-Medium,<3Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,High,6-8,high,FD
 Medium,<3Lakhs,High,>8,high,FD
-Medium,<3Lakhs,High,6-8,high,FD
-Medium,3-5Lakhs,High,6-8,med,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,>5Lakhs,Med,6-8,med,Mutual Funds
-Medium,3-5Lakhs,High,6-8,med,Mutual Funds
-Medium,<3Lakhs,High,6-8,low,FD
-Medium,>5Lakhs,Low,6-8,low,Mutual Funds
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
 Medium,<3Lakhs,High,>8,low,FD
-Medium,<3Lakhs,Low,>8,low,FD
-Medium,>5Lakhs,High,>8,low,Mutual Funds
-Medium,3-5Lakhs,High,>8,high,Mutual Funds
 Medium,<3Lakhs,Med,6-8,high,FD
-Medium,<3Lakhs,High,>8,low,FD
-Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,<3Lakhs,Low,3-5,high,FD
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
 Medium,<3Lakhs,Med,6-8,low,FD
-Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-High,<3Lakhs,Low,3-5,low,FD
-Medium,3-5Lakhs,High,>8,low,Mutual Funds
-Medium,<3Lakhs,Med,6-8,high,FD
-Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
-Medium,<3Lakhs,Med,3-5,med,FD
-Medium,<3Lakhs,Med,6-8,med,FD
-Medium,>5Lakhs,Low,3-5,med,Mutual Funds
-Medium,>5Lakhs,Low,6-8,high,Mutual Funds
-Medium,<3Lakhs,Med,3-5,low,FD
-Medium,3-5Lakhs,High,3-5,med,Mutual Funds
-Medium,>5Lakhs,High,3-5,high,Mutual Funds
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Medium,>5Lakhs,Med,>8,med,FD
+Medium,>5Lakhs,Med,6-8,high,FD
 Medium,3-5Lakhs,Med,>8,high,Mutual Funds
-Medium,>5Lakhs,High,>8,med,Mutual Funds
-Medium,>5Lakhs,High,3-5,med,Mutual Funds
-Medium,3-5Lakhs,High,6-8,low,Mutual Funds
-Medium,<3Lakhs,High,3-5,high,FD
-Medium,>5Lakhs,High,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
-Medium,>5Lakhs,Med,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
-Medium,>5Lakhs,Low,3-5,low,Mutual Funds
-Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Low,<3Lakhs,Low,3-5,low,FD
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,<3Lakhs,High,>8,high,FD
 Medium,3-5Lakhs,Med,>8,med,Mutual Funds
+Medium,>5Lakhs,Med,3-5,low,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,3-5Lakhs,Low,>8,med,Mutual Funds
+Medium,>5Lakhs,Med,3-5,low,FD
+Medium,<3Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,3-5Lakhs,Low,>8,high,Mutual Funds
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,<3Lakhs,High,>8,low,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Low,<3Lakhs,Low,3-5,low,FD
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,Med,6-8,low,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,>8,high,FD
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,>5Lakhs,High,3-5,low,FD
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,<3Lakhs,High,>8,high,FD
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,>5Lakhs,Low,3-5,high,FD
+Medium,3-5Lakhs,Low,3-5,high,Mutual Funds
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,<3Lakhs,Med,>8,med,FD
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,<3Lakhs,High,>8,low,FD
+Medium,>5Lakhs,High,6-8,low,FD
+Medium,3-5Lakhs,Low,>8,high,Mutual Funds
+Medium,>5Lakhs,High,>8,med,FD
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,High,>8,low,FD
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Medium,>5Lakhs,High,6-8,low,FD
+Medium,3-5Lakhs,Med,>8,high,Mutual Funds
+Medium,>5Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,>5Lakhs,High,6-8,low,FD
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,3-5Lakhs,High,3-5,high,Mutual Funds
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,Med,6-8,med,FD
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,3-5Lakhs,Med,>8,med,Mutual Funds
+Medium,3-5Lakhs,High,3-5,med,Mutual Funds
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,>5Lakhs,High,3-5,med,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,High,>8,med,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,<3Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,>5Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,3-5Lakhs,Low,>8,high,Mutual Funds
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,3-5Lakhs,Med,6-8,med,Mutual Funds
+Medium,<3Lakhs,High,>8,high,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,<3Lakhs,High,>8,low,FD
+Medium,>5Lakhs,Med,3-5,low,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,<3Lakhs,Low,>8,low,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,3-5Lakhs,Med,>8,high,Mutual Funds
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,<3Lakhs,High,>8,high,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,<3Lakhs,High,>8,med,FD
+Medium,3-5Lakhs,Med,>8,med,Mutual Funds
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,<3Lakhs,High,>8,high,FD
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,<3Lakhs,High,3-5,low,FD
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,>5Lakhs,Med,3-5,high,FD
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,3-5Lakhs,High,6-8,med,Mutual Funds
+Medium,3-5Lakhs,Med,3-5,high,Mutual Funds
+Medium,3-5Lakhs,Med,>8,high,Mutual Funds
+Medium,3-5Lakhs,High,>8,high,Mutual Funds
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,<3Lakhs,High,6-8,low,FD
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,>5Lakhs,Low,>8,low,FD
+High,>5Lakhs,High,>8,high,stocks
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,3-5Lakhs,Low,6-8,med,Mutual Funds
+Medium,>5Lakhs,Low,6-8,high,FD
+Medium,>5Lakhs,High,3-5,med,FD
+Medium,>5Lakhs,High,3-5,med,FD
+Medium,>5Lakhs,Med,>8,high,FD
+Medium,>5Lakhs,High,3-5,low,FD
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,>5Lakhs,Low,>8,low,FD
+Medium,<3Lakhs,Low,3-5,high,FD
+Medium,3-5Lakhs,High,6-8,high,Mutual Funds
+Medium,>5Lakhs,High,>8,low,FD
+Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Medium,<3Lakhs,Low,>8,med,FD
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,<3Lakhs,Low,6-8,high,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,>5Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,<3Lakhs,High,6-8,med,FD
+Medium,>5Lakhs,Med,6-8,low,FD
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,>5Lakhs,High,6-8,high,FD
+Medium,>5Lakhs,Med,6-8,high,FD
+Medium,>5Lakhs,Low,>8,high,FD
+High,>5Lakhs,High,>8,high,stocks
+Medium,3-5Lakhs,Low,>8,low,Mutual Funds
+Medium,<3Lakhs,High,3-5,high,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,<3Lakhs,Med,3-5,high,FD
+Medium,>5Lakhs,Low,6-8,high,FD
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,>5Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,Low,3-5,med,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,High,6-8,high,FD
+Medium,3-5Lakhs,High,3-5,low,Mutual Funds
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,3-5Lakhs,Med,3-5,med,Mutual Funds
+Medium,<3Lakhs,Low,6-8,med,FD
+Medium,>5Lakhs,Low,3-5,low,FD
+Medium,>5Lakhs,Low,3-5,high,FD
+Medium,3-5Lakhs,Low,6-8,low,Mutual Funds
+Medium,>5Lakhs,Med,3-5,med,FD
+Medium,3-5Lakhs,High,>8,low,Mutual Funds
+Medium,<3Lakhs,Low,6-8,low,FD
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,3-5Lakhs,High,>8,med,Mutual Funds
+Medium,>5Lakhs,Med,6-8,med,FD
+Medium,<3Lakhs,Low,3-5,med,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,<3Lakhs,Med,3-5,med,FD
+Medium,<3Lakhs,High,3-5,med,FD
+Medium,3-5Lakhs,Med,>8,high,Mutual Funds
+Medium,3-5Lakhs,Med,6-8,high,Mutual Funds
+Medium,3-5Lakhs,Med,6-8,low,Mutual Funds
+Low,<3Lakhs,Low,3-5,low,FD
+Medium,<3Lakhs,Med,3-5,low,FD
+Medium,>5Lakhs,High,3-5,med,FD
+High,>5Lakhs,High,>8,high,stocks
+Medium,3-5Lakhs,Med,>8,low,Mutual Funds
+Medium,<3Lakhs,Med,6-8,med,FD
+Medium,3-5Lakhs,Med,3-5,low,Mutual Funds
+Medium,3-5Lakhs,Low,3-5,low,Mutual Funds
+Medium,>5Lakhs,High,3-5,med,FD
+Medium,<3Lakhs,Low,3-5,high,FD
+Low,<3Lakhs,Low,3-5,low,FD
+Medium,>5Lakhs,Low,>8,high,FD
+Medium,<3Lakhs,Low,>8,med,FD
+Medium,>5Lakhs,Med,>8,low,FD
+Medium,3-5Lakhs,Low,>8,high,Mutual Funds
+Medium,<3Lakhs,Med,>8,high,FD
+Medium,3-5Lakhs,Low,3-5,med,Mutual Funds
+Medium,>5Lakhs,High,6-8,low,FD
+Medium,<3Lakhs,High,>8,low,FD
+Medium,>5Lakhs,Low,>8,med,FD
+Medium,3-5Lakhs,Med,3-5,low,Mutual Funds

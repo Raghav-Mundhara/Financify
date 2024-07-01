@@ -19,9 +19,9 @@ literacy_data = np.random.choice(literacy_categories, num_samples)
 # Create a risk assessment based on other attributes (simple example)
 def assess_risk(income, roi, points, literacy):
     if income == '>5Lakhs' and roi == 'High' and points == '>8' and literacy == 'high':
-        return 'Low'
-    elif income == '<3Lakhs' and roi == 'Low' and points == '3-5' and literacy == 'low':
         return 'High'
+    elif income == '<3Lakhs' and roi == 'Low' and points == '3-5' and literacy == 'low':
+        return 'Low'
     else:
         return 'Medium'
 
@@ -68,6 +68,6 @@ data = {
 df = pd.DataFrame(data)
 
 # Save the DataFrame to a CSV file
-df.to_csv('synthetic_dataset.csv', index=False)
+df.to_csv('data.csv', index=False)
 
 print("Dataset generated and saved to 'synthetic_dataset.csv'")

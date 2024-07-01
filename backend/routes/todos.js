@@ -13,7 +13,7 @@ const todoSchema=zod.object({
 
 const todoRouter=express.Router();
 //Add Todo
-todoRouter.post('/add/:studentID',studentMiddleware,async (req,res)=>{
+todoRouter.post('/add/:studentID',ngoMiddleware,async (req,res)=>{
     const parseResult=todoSchema.safeParse(req.body);
     if(!parseResult.success){
         return res.status(400).json({msg:"Invalid Data"});
@@ -62,7 +62,7 @@ todoRouter.put('/update/:studentID/:id',ngoMiddleware,async (req,res)=>{
 });
 
 //Delete Todo
-todoRouter.delete('/delete/:studentID/:id',studentMiddleware,async (req,res)=>{
+todoRouter.delete('/delete/:studentID/:id',ngoMiddleware,async (req,res)=>{
     try {
         const todo=await todoModel.findOneAndDelete({_id:req.params.id,studentId:req.params.studentID});
         return res.status(200).json(todo);
