@@ -3,6 +3,7 @@ import Heading from '../components/Heading';
 import SubHeading from '../components/SubHeading';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Expense from './Expense';
 
 export default function Profile() {
     const [student, setStudent] = useState(null);
@@ -69,7 +70,7 @@ export default function Profile() {
                 </div>
             </div>
             <div className='flex-1 p-10'>
-                {/* Additional content can be placed here */}
+                <Expense />
             </div>
         </div>
     );

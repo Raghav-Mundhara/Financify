@@ -99,7 +99,7 @@ export default function Expense() {
     };
 
     return (
-        <div className='bg-navy-800 h-screen flex justify-center pt-10'>
+        <div className='bg-navy-800 h-screen flex justify-start pt-10'>
             <div className='flex flex-col justify-center'>
                 <div className='rounded-lg bg-white text-center p-4'>
                     <Heading title="Expenses" />
