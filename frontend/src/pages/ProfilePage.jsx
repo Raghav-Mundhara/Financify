@@ -36,7 +36,7 @@ export default function Profile() {
     if (!student || !ngo) return <div>Loading...</div>;
 
     return (
-        <div className='bg-navy h-screen flex'>
+        <div className='bg-navy h-full flex'>
             <div className='w-1/4 bg-white text-black p-4'>
                 <Heading title="Profile" />
                 <SubHeading subheading="Your account details" />
@@ -69,7 +69,7 @@ export default function Profile() {
                     </div>
                 </div>
             </div>
-            <div className='flex-1 p-10'>
+            <div className='flex-1 p-10 h-min border border-red-900'>
                 <Expense />
             </div>
         </div>
