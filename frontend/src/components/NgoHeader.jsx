@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 function NgoHeader(props) {
     const navigate = useNavigate()
     return (
-        <div className='border-b'>
+        <div className='border-b bg-black text-white'>
             <div className='flex justify-end px-4 '>
                 <div className='flex space-x-4'>
                     <button onClick={() => {
