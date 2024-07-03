@@ -1,0 +1,1001 @@
+risk,income,roi,points,literacy,investin
+Medium,262556,Med,>8,med,FD
+Medium,608162,Low,>8,med,Mutual Funds
+Medium,875252,Med,3-5,low,Mutual Funds
+Medium,344698,Low,3-5,high,Mutual Funds
+Medium,416405,Med,>8,low,Mutual Funds
+Medium,426283,Med,>8,high,Mutual Funds
+Medium,511040,Med,6-8,low,Mutual Funds
+Medium,458224,Med,6-8,med,Mutual Funds
+Medium,105794,Med,3-5,low,FD
+Medium,171394,Med,>8,low,FD
+Medium,137250,Med,>8,high,FD
+Medium,382745,Med,>8,med,Mutual Funds
+Medium,586298,Low,>8,high,Mutual Funds
+Medium,710517,High,6-8,med,Mutual Funds
+Medium,219518,High,3-5,high,FD
+Medium,733075,Med,6-8,med,Mutual Funds
+Medium,983318,High,3-5,high,Mutual Funds
+Medium,679440,Med,6-8,low,Mutual Funds
+Medium,455493,High,6-8,low,Mutual Funds
+High,946814,Med,>8,med,stocks
+Medium,314503,Low,6-8,high,Mutual Funds
+Medium,284281,Med,3-5,med,FD
+Medium,255235,Med,>8,high,FD
+High,602230,High,>8,high,stocks
+Medium,849263,High,6-8,low,Mutual Funds
+Medium,334062,Low,3-5,med,Mutual Funds
+Medium,577985,Med,6-8,high,Mutual Funds
+Medium,280007,Low,>8,low,FD
+Medium,314718,Med,>8,low,Mutual Funds
+Medium,403599,Med,6-8,high,Mutual Funds
+Medium,441180,Low,3-5,med,Mutual Funds
+Medium,562069,High,3-5,high,Mutual Funds
+Medium,626719,Med,6-8,high,Mutual Funds
+Medium,423145,Low,6-8,low,Mutual Funds
+Medium,236516,Med,>8,low,FD
+Medium,255967,Med,>8,low,FD
+Medium,146922,Med,6-8,med,FD
+Medium,320014,Low,6-8,low,Mutual Funds
+Medium,390684,High,>8,med,Mutual Funds
+Medium,584922,Med,6-8,med,Mutual Funds
+Medium,448622,Med,6-8,med,Mutual Funds
+Medium,334180,High,3-5,med,Mutual Funds
+Medium,808383,Low,3-5,high,Mutual Funds
+Medium,877860,High,>8,med,Mutual Funds
+Medium,979030,High,>8,low,Mutual Funds
+High,632198,High,>8,high,stocks
+Medium,393758,Med,6-8,low,Mutual Funds
+Medium,913965,High,3-5,high,Mutual Funds
+High,888140,Med,>8,high,stocks
+Medium,353334,Low,3-5,high,Mutual Funds
+Medium,775347,Low,6-8,low,Mutual Funds
+Medium,401044,Med,>8,low,Mutual Funds
+Medium,927458,Low,>8,high,Mutual Funds
+Medium,195334,Med,3-5,high,FD
+Medium,899093,Med,6-8,low,Mutual Funds
+Medium,830503,Low,6-8,low,Mutual Funds
+Medium,304264,High,6-8,low,Mutual Funds
+Medium,860258,Low,3-5,med,Mutual Funds
+Medium,325274,High,>8,low,Mutual Funds
+High,664835,Med,>8,low,stocks
+Medium,317594,Low,3-5,med,Mutual Funds
+Medium,224805,Low,>8,high,FD
+Medium,485149,High,>8,med,Mutual Funds
+Medium,340123,Med,3-5,low,Mutual Funds
+Medium,367182,High,3-5,med,Mutual Funds
+Medium,184387,Med,6-8,med,FD
+Medium,677502,Med,6-8,low,Mutual Funds
+Medium,942430,High,3-5,med,Mutual Funds
+Medium,329730,Low,6-8,med,Mutual Funds
+Medium,194750,Med,>8,high,FD
+Medium,264992,Low,3-5,high,FD
+Medium,365784,Low,3-5,high,Mutual Funds
+Medium,264104,Med,6-8,high,FD
+High,759055,Med,>8,high,stocks
+Medium,101582,High,>8,med,FD
+Medium,542983,Med,6-8,low,Mutual Funds
+Medium,258884,Low,>8,med,FD
+Medium,355938,High,3-5,high,Mutual Funds
+Medium,268478,Med,3-5,low,FD
+Medium,820938,Low,6-8,low,Mutual Funds
+Medium,169153,Low,>8,med,FD
+Medium,636400,High,6-8,high,Mutual Funds
+Medium,456863,Low,3-5,med,Mutual Funds
+Medium,339360,High,3-5,med,Mutual Funds
+Medium,207943,Med,3-5,high,FD
+Medium,486732,High,6-8,med,Mutual Funds
+Medium,155695,Low,>8,high,FD
+Medium,253040,Med,>8,high,FD
+Medium,202550,High,>8,high,FD
+Medium,262073,Med,>8,high,FD
+Medium,192069,High,6-8,high,FD
+Medium,261410,Med,>8,high,FD
+Medium,250653,High,6-8,high,FD
+Medium,177052,Med,>8,high,FD
+Medium,424042,Med,3-5,low,Mutual Funds
+Medium,860429,Low,6-8,low,Mutual Funds
+Medium,342685,Low,3-5,low,Mutual Funds
+Medium,259787,Med,6-8,low,FD
+Medium,744402,Low,6-8,high,Mutual Funds
+Medium,385163,High,3-5,med,Mutual Funds
+Medium,449588,High,3-5,low,Mutual Funds
+Medium,691270,Med,6-8,high,Mutual Funds
+Medium,683530,High,3-5,high,Mutual Funds
+Medium,818238,Med,6-8,low,Mutual Funds
+Medium,611360,Low,3-5,low,Mutual Funds
+Medium,557988,High,3-5,med,Mutual Funds
+Medium,860433,High,>8,med,Mutual Funds
+Medium,339911,Low,6-8,med,Mutual Funds
+Low,152262,Low,3-5,low,FD
+Medium,342574,Low,3-5,high,Mutual Funds
+Medium,400630,Low,>8,low,Mutual Funds
+Medium,302575,Med,>8,high,Mutual Funds
+Medium,536622,High,3-5,med,Mutual Funds
+Medium,709849,Med,6-8,high,Mutual Funds
+Medium,442222,Med,6-8,med,Mutual Funds
+Medium,378880,Low,>8,med,Mutual Funds
+Medium,213650,Med,>8,high,FD
+Medium,507652,High,3-5,high,Mutual Funds
+Medium,596833,Low,3-5,low,Mutual Funds
+Medium,411125,Med,3-5,low,Mutual Funds
+Medium,949623,Med,6-8,high,Mutual Funds
+Medium,453076,High,3-5,med,Mutual Funds
+Medium,731859,Med,6-8,med,Mutual Funds
+Medium,704527,Med,3-5,high,Mutual Funds
+High,502913,Med,>8,high,stocks
+Medium,239317,High,3-5,low,FD
+Medium,288723,High,>8,low,FD
+Medium,217978,Med,6-8,high,FD
+Medium,147377,High,6-8,high,FD
+Medium,197663,High,6-8,high,FD
+Medium,761098,Med,6-8,high,Mutual Funds
+Medium,275255,Med,3-5,high,FD
+Medium,754523,Low,>8,low,Mutual Funds
+Medium,492006,Low,6-8,low,Mutual Funds
+Medium,352246,Low,>8,high,Mutual Funds
+Medium,103738,Med,>8,low,FD
+Medium,355935,Low,>8,med,Mutual Funds
+High,773550,Med,>8,high,stocks
+Medium,294534,High,6-8,low,FD
+Medium,486677,High,3-5,high,Mutual Funds
+Medium,766841,High,>8,low,Mutual Funds
+Medium,587070,High,3-5,low,Mutual Funds
+Medium,962043,Med,3-5,med,Mutual Funds
+Medium,449845,High,>8,high,Mutual Funds
+Medium,361604,High,3-5,med,Mutual Funds
+Medium,882350,High,6-8,med,Mutual Funds
+Medium,493990,Med,3-5,high,Mutual Funds
+Medium,724733,Med,3-5,low,Mutual Funds
+Medium,386251,High,3-5,low,Mutual Funds
+Medium,176964,Med,3-5,med,FD
+Medium,132849,High,6-8,med,FD
+Medium,361789,Low,>8,low,Mutual Funds
+Medium,248239,Low,6-8,low,FD
+Medium,362318,Med,6-8,med,Mutual Funds
+Medium,204116,High,>8,high,FD
+Medium,324904,Low,3-5,high,Mutual Funds
+Medium,721991,High,6-8,low,Mutual Funds
+Medium,290462,Med,>8,high,FD
+Medium,117796,Med,>8,med,FD
+Medium,492819,Low,6-8,med,Mutual Funds
+Medium,808432,Med,3-5,high,Mutual Funds
+Medium,198666,Low,3-5,med,FD
+Medium,187176,High,3-5,low,FD
+Medium,833465,Med,3-5,med,Mutual Funds
+Medium,143748,High,>8,high,FD
+Medium,183092,Low,6-8,med,FD
+Medium,492419,High,6-8,low,Mutual Funds
+Medium,333080,Low,>8,med,Mutual Funds
+High,687242,Med,>8,low,stocks
+Medium,302718,Low,6-8,med,Mutual Funds
+Medium,788511,High,6-8,low,Mutual Funds
+High,604436,Med,>8,low,stocks
+Medium,507930,Med,6-8,med,Mutual Funds
+Medium,925332,Med,6-8,high,Mutual Funds
+Medium,156785,Med,3-5,low,FD
+Medium,161593,High,3-5,high,FD
+Medium,282592,Low,>8,high,FD
+Medium,107081,High,>8,med,FD
+Medium,118366,High,3-5,med,FD
+Medium,384885,High,>8,low,Mutual Funds
+Medium,961545,Med,6-8,med,Mutual Funds
+Medium,479975,Low,6-8,low,Mutual Funds
+Medium,353464,Med,6-8,high,Mutual Funds
+Medium,669197,Low,6-8,med,Mutual Funds
+Low,200431,Low,3-5,low,FD
+Medium,141217,High,6-8,high,FD
+Medium,203179,Low,6-8,med,FD
+Medium,208756,Med,>8,high,FD
+Medium,266040,High,>8,med,FD
+Medium,339885,High,>8,high,Mutual Funds
+Medium,641710,Low,3-5,med,Mutual Funds
+High,865537,Med,>8,low,stocks
+Medium,330483,High,>8,high,Mutual Funds
+High,535674,Med,>8,high,stocks
+Medium,887604,Med,6-8,low,Mutual Funds
+Medium,605896,Low,3-5,med,Mutual Funds
+Medium,364926,Med,>8,high,Mutual Funds
+Medium,228478,High,6-8,high,FD
+Medium,341912,Med,>8,low,Mutual Funds
+Medium,584022,High,3-5,low,Mutual Funds
+Medium,190571,Low,>8,med,FD
+Medium,795146,High,3-5,med,Mutual Funds
+Medium,485245,Med,6-8,high,Mutual Funds
+Medium,574339,High,3-5,med,Mutual Funds
+Medium,472388,High,6-8,high,Mutual Funds
+Medium,628921,High,>8,low,Mutual Funds
+Medium,754907,Low,6-8,low,Mutual Funds
+Medium,162992,Med,>8,low,FD
+Medium,482742,Low,3-5,high,Mutual Funds
+Medium,880342,High,6-8,low,Mutual Funds
+Medium,851780,Med,3-5,med,Mutual Funds
+Medium,948179,Low,3-5,low,Mutual Funds
+Medium,278821,Med,6-8,high,FD
+Medium,346873,Med,>8,med,Mutual Funds
+Medium,684371,Low,>8,low,Mutual Funds
+Medium,172544,Med,>8,med,FD
+Medium,484427,Low,>8,high,Mutual Funds
+Medium,219821,High,>8,high,FD
+Medium,120920,Med,>8,med,FD
+Medium,507726,Med,6-8,high,Mutual Funds
+Medium,124423,Med,6-8,high,FD
+Medium,494773,Low,3-5,low,Mutual Funds
+Medium,744911,Med,3-5,high,Mutual Funds
+Medium,731287,Med,6-8,low,Mutual Funds
+Medium,378127,Low,>8,low,Mutual Funds
+Medium,353406,Med,>8,med,Mutual Funds
+High,984814,Med,>8,low,stocks
+Medium,211729,High,3-5,med,FD
+Medium,290345,Low,>8,med,FD
+Medium,464050,Med,6-8,high,Mutual Funds
+Medium,762875,Low,3-5,med,Mutual Funds
+Medium,112233,High,>8,high,FD
+Medium,278521,Low,6-8,high,FD
+Medium,291604,Med,>8,low,FD
+Medium,766162,High,3-5,med,Mutual Funds
+Medium,419911,Med,>8,low,Mutual Funds
+Medium,263504,High,>8,low,FD
+Medium,986500,Med,3-5,med,Mutual Funds
+Medium,425267,Low,>8,med,Mutual Funds
+Medium,354619,Med,6-8,high,Mutual Funds
+Medium,139590,Low,6-8,med,FD
+Medium,251594,Med,>8,med,FD
+Medium,410898,Med,3-5,low,Mutual Funds
+Medium,207018,Med,3-5,low,FD
+Medium,189314,Med,3-5,low,FD
+Medium,185895,Low,>8,high,FD
+Medium,538573,Med,6-8,low,Mutual Funds
+Medium,927777,High,6-8,high,Mutual Funds
+Medium,140588,Med,>8,high,FD
+Medium,834218,Med,6-8,high,Mutual Funds
+Medium,331677,Low,6-8,high,Mutual Funds
+Medium,272885,Low,>8,high,FD
+Medium,101216,High,6-8,high,FD
+Medium,753561,Low,6-8,med,Mutual Funds
+Medium,952267,Low,3-5,high,Mutual Funds
+Medium,383600,Med,6-8,med,Mutual Funds
+Medium,157946,Low,>8,low,FD
+Medium,357827,Low,6-8,low,Mutual Funds
+Medium,324695,Med,>8,med,Mutual Funds
+Medium,316680,High,>8,high,Mutual Funds
+Medium,339985,High,3-5,low,Mutual Funds
+Medium,308769,High,6-8,high,Mutual Funds
+Medium,494994,Low,6-8,med,Mutual Funds
+Medium,116446,High,6-8,med,FD
+Medium,223198,High,6-8,med,FD
+Medium,269548,High,3-5,high,FD
+Medium,765411,High,>8,low,Mutual Funds
+Medium,568661,Med,6-8,low,Mutual Funds
+Medium,157892,Low,6-8,high,FD
+Low,126236,Low,3-5,low,FD
+Medium,861735,Med,3-5,high,Mutual Funds
+Medium,314980,High,6-8,med,Mutual Funds
+Medium,430589,High,3-5,high,Mutual Funds
+Medium,284494,High,>8,low,FD
+Medium,129792,Low,>8,high,FD
+Medium,914611,Med,6-8,high,Mutual Funds
+Medium,296053,Low,>8,low,FD
+Medium,450301,Med,6-8,med,Mutual Funds
+Medium,201828,Low,3-5,med,FD
+Medium,433726,High,6-8,low,Mutual Funds
+Medium,599959,High,6-8,med,Mutual Funds
+Medium,496534,High,3-5,high,Mutual Funds
+Medium,923825,Low,>8,low,Mutual Funds
+High,700246,High,>8,high,stocks
+Medium,466288,High,6-8,med,Mutual Funds
+Medium,236658,High,6-8,high,FD
+Medium,673091,Low,3-5,high,Mutual Funds
+Medium,261408,High,>8,high,FD
+Medium,428565,High,>8,med,Mutual Funds
+Medium,381234,Low,3-5,low,Mutual Funds
+Medium,188318,High,>8,high,FD
+Medium,258892,Med,>8,high,FD
+Medium,939817,Med,3-5,med,Mutual Funds
+Medium,118197,Med,>8,high,FD
+Medium,234289,High,6-8,high,FD
+Medium,244476,Low,>8,med,FD
+Medium,594109,High,6-8,med,Mutual Funds
+Medium,269708,Med,3-5,med,FD
+Medium,342519,High,6-8,low,Mutual Funds
+Medium,846336,Low,6-8,med,Mutual Funds
+Medium,709868,Low,>8,high,Mutual Funds
+Medium,934694,Med,3-5,med,Mutual Funds
+Medium,475797,Med,>8,med,Mutual Funds
+Medium,430363,Low,3-5,med,Mutual Funds
+Medium,261163,High,6-8,med,FD
+Medium,767647,Low,6-8,med,Mutual Funds
+Medium,448313,Low,6-8,low,Mutual Funds
+Medium,876981,Med,3-5,high,Mutual Funds
+Medium,932305,Med,6-8,low,Mutual Funds
+Medium,144761,Med,6-8,med,FD
+Medium,462286,High,3-5,high,Mutual Funds
+Medium,636899,High,6-8,low,Mutual Funds
+Medium,378454,Med,3-5,high,Mutual Funds
+Medium,317257,Med,>8,med,Mutual Funds
+Medium,205342,High,3-5,med,FD
+Medium,758193,Low,3-5,high,Mutual Funds
+Medium,274168,Low,>8,med,FD
+Medium,470776,Low,>8,low,Mutual Funds
+Medium,402372,Med,6-8,low,Mutual Funds
+Medium,259137,Med,6-8,high,FD
+Medium,465138,Low,6-8,low,Mutual Funds
+High,937056,Med,>8,high,stocks
+Medium,407697,Med,>8,high,Mutual Funds
+High,772353,Med,>8,med,stocks
+Medium,732063,Low,>8,low,Mutual Funds
+Medium,759000,High,3-5,low,Mutual Funds
+Medium,634835,Low,6-8,low,Mutual Funds
+Medium,309196,Med,6-8,med,Mutual Funds
+Medium,268528,Low,3-5,med,FD
+Low,133857,Low,3-5,low,FD
+Medium,422236,High,6-8,low,Mutual Funds
+Medium,417285,High,6-8,med,Mutual Funds
+Medium,340871,Med,>8,med,Mutual Funds
+Medium,647426,High,>8,low,Mutual Funds
+Medium,378118,Low,3-5,low,Mutual Funds
+Medium,430594,Med,>8,high,Mutual Funds
+Medium,471159,Med,3-5,high,Mutual Funds
+Medium,389432,Med,3-5,low,Mutual Funds
+Medium,786861,High,3-5,low,Mutual Funds
+Medium,802686,Med,6-8,high,Mutual Funds
+Medium,214902,High,6-8,med,FD
+Medium,191220,High,>8,high,FD
+Medium,435887,Low,>8,low,Mutual Funds
+Medium,215179,Low,6-8,med,FD
+Medium,472744,Low,6-8,low,Mutual Funds
+Medium,108761,Med,>8,low,FD
+Medium,169785,High,6-8,high,FD
+Medium,941134,Low,>8,high,Mutual Funds
+Medium,209953,Med,6-8,high,FD
+Medium,165046,Med,6-8,high,FD
+Medium,477602,Med,6-8,high,Mutual Funds
+Medium,392557,Low,3-5,low,Mutual Funds
+Medium,443509,High,3-5,low,Mutual Funds
+Medium,280362,High,6-8,med,FD
+Medium,340693,Med,6-8,med,Mutual Funds
+Medium,427380,Med,>8,med,Mutual Funds
+Medium,561026,High,3-5,high,Mutual Funds
+Medium,360454,Med,3-5,med,Mutual Funds
+Medium,188978,Med,3-5,high,FD
+Medium,446260,Med,3-5,high,Mutual Funds
+Medium,152150,Low,>8,high,FD
+Medium,283642,Med,6-8,high,FD
+Medium,282610,High,>8,med,FD
+Medium,423720,Med,3-5,high,Mutual Funds
+Medium,547801,High,3-5,high,Mutual Funds
+Medium,112794,High,3-5,low,FD
+Medium,975278,Low,>8,high,Mutual Funds
+Medium,173890,Low,>8,high,FD
+Medium,475447,Med,6-8,low,Mutual Funds
+Medium,248243,Low,6-8,low,FD
+Medium,166899,Med,3-5,low,FD
+Medium,216324,Low,6-8,high,FD
+High,761125,High,>8,high,stocks
+Medium,191089,Med,6-8,low,FD
+Medium,491485,Med,>8,low,Mutual Funds
+Medium,706041,High,>8,low,Mutual Funds
+Medium,373837,High,3-5,med,Mutual Funds
+Medium,122537,Med,6-8,high,FD
+Medium,801567,High,3-5,low,Mutual Funds
+Medium,739582,Low,6-8,high,Mutual Funds
+High,802970,Med,>8,high,stocks
+High,991312,Med,>8,low,stocks
+Medium,888515,Low,6-8,med,Mutual Funds
+Medium,914907,High,6-8,low,Mutual Funds
+Medium,129923,High,>8,med,FD
+Medium,484039,Med,>8,high,Mutual Funds
+Medium,953411,Med,6-8,med,Mutual Funds
+Medium,381909,Med,>8,low,Mutual Funds
+High,552437,Med,>8,high,stocks
+High,781494,Med,>8,high,stocks
+Medium,922038,Low,3-5,med,Mutual Funds
+Medium,895930,High,3-5,med,Mutual Funds
+Medium,353047,High,6-8,high,Mutual Funds
+Medium,247859,Low,>8,med,FD
+Medium,484002,High,>8,high,Mutual Funds
+Medium,340696,High,3-5,med,Mutual Funds
+Medium,595521,Low,3-5,low,Mutual Funds
+Medium,228615,High,3-5,high,FD
+Medium,992363,High,>8,low,Mutual Funds
+Medium,159927,Low,6-8,med,FD
+Medium,145490,Low,6-8,high,FD
+Medium,328929,High,3-5,high,Mutual Funds
+Medium,721652,High,3-5,high,Mutual Funds
+Medium,227346,Low,>8,low,FD
+Medium,394636,High,3-5,high,Mutual Funds
+Medium,144140,Med,3-5,high,FD
+Medium,644397,Med,6-8,med,Mutual Funds
+Medium,270344,Med,>8,high,FD
+Medium,102623,Med,3-5,low,FD
+Medium,189296,High,6-8,low,FD
+Medium,379161,Low,3-5,high,Mutual Funds
+Medium,888876,High,>8,low,Mutual Funds
+Medium,765047,Med,3-5,high,Mutual Funds
+Medium,553154,Low,6-8,med,Mutual Funds
+Medium,346616,High,>8,high,Mutual Funds
+Medium,408796,Low,3-5,low,Mutual Funds
+Medium,404559,High,>8,low,Mutual Funds
+Medium,471841,Med,6-8,high,Mutual Funds
+Medium,739307,High,3-5,low,Mutual Funds
+High,719168,Med,>8,high,stocks
+Medium,632142,Low,6-8,high,Mutual Funds
+Medium,311137,High,>8,med,Mutual Funds
+Medium,171215,Med,6-8,med,FD
+Medium,429548,Low,>8,high,Mutual Funds
+Medium,586173,High,>8,med,Mutual Funds
+Medium,320383,High,>8,low,Mutual Funds
+Medium,126768,High,>8,med,FD
+Medium,430165,High,3-5,high,Mutual Funds
+Medium,399360,Med,6-8,med,Mutual Funds
+Medium,120892,High,6-8,high,FD
+Medium,204352,Med,6-8,high,FD
+Medium,154636,High,6-8,low,FD
+Medium,543415,Low,6-8,low,Mutual Funds
+Medium,139165,Low,>8,med,FD
+Medium,142470,Med,>8,low,FD
+Medium,137370,High,>8,low,FD
+Medium,295828,Low,3-5,med,FD
+Medium,492720,Med,3-5,low,Mutual Funds
+Medium,896868,Low,>8,med,Mutual Funds
+Medium,433955,High,6-8,low,Mutual Funds
+Medium,520103,Low,>8,low,Mutual Funds
+Medium,885613,Low,6-8,high,Mutual Funds
+Medium,181283,Med,3-5,high,FD
+Medium,211753,High,3-5,med,FD
+Medium,287764,Low,>8,low,FD
+Medium,248894,Low,6-8,med,FD
+Medium,417465,High,3-5,high,Mutual Funds
+Medium,166428,Med,>8,low,FD
+Medium,116456,Med,6-8,high,FD
+Medium,406444,Med,3-5,med,Mutual Funds
+Medium,158077,Low,6-8,low,FD
+Medium,242685,Low,>8,med,FD
+Medium,186099,Low,6-8,high,FD
+Medium,632447,High,>8,low,Mutual Funds
+Medium,133739,Med,3-5,high,FD
+Medium,971375,Med,6-8,med,Mutual Funds
+Medium,120170,Med,>8,med,FD
+Medium,413284,High,>8,high,Mutual Funds
+Medium,659466,Low,>8,low,Mutual Funds
+Medium,228170,Low,>8,low,FD
+Medium,515302,Low,>8,high,Mutual Funds
+Medium,374513,High,6-8,med,Mutual Funds
+Medium,419314,High,3-5,low,Mutual Funds
+Medium,281165,Med,3-5,med,FD
+Medium,403525,Low,3-5,med,Mutual Funds
+Medium,802809,Low,6-8,high,Mutual Funds
+Medium,128906,High,3-5,med,FD
+Medium,115330,Low,>8,high,FD
+Medium,495784,High,3-5,high,Mutual Funds
+Medium,949217,Med,6-8,high,Mutual Funds
+Medium,270192,Med,6-8,high,FD
+Medium,494830,High,>8,low,Mutual Funds
+Medium,172143,Med,6-8,high,FD
+Medium,421295,Low,>8,high,Mutual Funds
+Medium,201459,High,3-5,low,FD
+Medium,477596,High,>8,med,Mutual Funds
+Medium,200190,Low,6-8,low,FD
+Medium,233785,High,>8,low,FD
+High,940976,Med,>8,med,stocks
+Medium,236101,Low,3-5,med,FD
+Medium,406870,Med,>8,low,Mutual Funds
+Medium,809058,High,>8,low,Mutual Funds
+Medium,458933,High,>8,high,Mutual Funds
+Medium,555761,Low,6-8,low,Mutual Funds
+Medium,272530,High,3-5,high,FD
+Medium,873594,Low,>8,high,Mutual Funds
+Medium,306820,Med,3-5,high,Mutual Funds
+Medium,624872,Med,3-5,high,Mutual Funds
+Medium,990964,Low,6-8,high,Mutual Funds
+Medium,307711,Med,3-5,high,Mutual Funds
+High,990728,Med,>8,low,stocks
+Medium,368342,Med,3-5,med,Mutual Funds
+Medium,810335,Med,3-5,high,Mutual Funds
+Medium,102867,Low,>8,high,FD
+Medium,405210,High,>8,high,Mutual Funds
+Medium,394489,Med,6-8,low,Mutual Funds
+High,826646,Med,>8,low,stocks
+Medium,161312,Med,>8,low,FD
+Medium,944205,Low,3-5,med,Mutual Funds
+Medium,994744,High,6-8,high,Mutual Funds
+Medium,650040,High,>8,med,Mutual Funds
+Medium,323882,Low,3-5,high,Mutual Funds
+Medium,391165,Med,3-5,low,Mutual Funds
+Medium,141362,Med,6-8,med,FD
+Medium,276481,Low,>8,low,FD
+High,969055,Med,>8,low,stocks
+Medium,478830,Low,>8,med,Mutual Funds
+Medium,143373,Med,>8,med,FD
+Medium,425635,Med,3-5,low,Mutual Funds
+Medium,187550,Med,>8,high,FD
+Medium,945857,Med,3-5,low,Mutual Funds
+Medium,201415,Med,6-8,low,FD
+Medium,206094,Med,6-8,med,FD
+Medium,944541,High,3-5,high,Mutual Funds
+Medium,403322,Med,3-5,low,Mutual Funds
+Medium,292118,Low,>8,med,FD
+Medium,802524,Low,3-5,low,Mutual Funds
+Medium,415062,High,>8,low,Mutual Funds
+Medium,458881,Med,6-8,med,Mutual Funds
+Medium,316591,High,>8,med,Mutual Funds
+High,682879,Med,>8,high,stocks
+Medium,255258,Med,6-8,low,FD
+Medium,901305,Low,>8,low,Mutual Funds
+Medium,259665,High,6-8,high,FD
+Medium,358688,High,3-5,low,Mutual Funds
+Medium,994897,Med,3-5,low,Mutual Funds
+High,548670,High,>8,high,stocks
+Medium,517519,Med,6-8,low,Mutual Funds
+Medium,441352,Low,>8,high,Mutual Funds
+Low,212285,Low,3-5,low,FD
+Medium,463866,Med,>8,med,Mutual Funds
+Medium,211884,High,3-5,high,FD
+Medium,184487,Med,6-8,med,FD
+Medium,542515,High,>8,low,Mutual Funds
+Medium,139755,Low,6-8,low,FD
+Medium,627554,High,>8,med,Mutual Funds
+Medium,231869,High,6-8,med,FD
+Medium,485601,High,6-8,high,Mutual Funds
+Medium,447860,Low,6-8,high,Mutual Funds
+Medium,513185,Med,6-8,med,Mutual Funds
+Medium,422635,Med,>8,low,Mutual Funds
+High,926776,Med,>8,med,stocks
+Medium,195307,Med,6-8,high,FD
+Medium,612098,High,>8,low,Mutual Funds
+Medium,218231,High,>8,high,FD
+Medium,661102,Med,6-8,low,Mutual Funds
+Medium,447398,Med,6-8,low,Mutual Funds
+Medium,366846,Med,>8,low,Mutual Funds
+Medium,630239,High,>8,med,Mutual Funds
+Medium,615877,High,>8,med,Mutual Funds
+Medium,346866,Low,>8,med,Mutual Funds
+Medium,258093,Low,6-8,med,FD
+Medium,491840,Low,6-8,med,Mutual Funds
+Medium,143209,High,3-5,high,FD
+Medium,656253,Med,6-8,low,Mutual Funds
+Medium,627374,Low,>8,med,Mutual Funds
+Medium,559120,High,6-8,med,Mutual Funds
+Medium,803399,Low,3-5,low,Mutual Funds
+Medium,233772,High,3-5,med,FD
+Medium,207968,Med,3-5,med,FD
+Medium,390458,High,6-8,med,Mutual Funds
+Medium,306699,Med,>8,med,Mutual Funds
+Medium,132868,High,3-5,low,FD
+Medium,154381,High,6-8,low,FD
+High,575135,Med,>8,high,stocks
+Medium,430961,High,6-8,med,Mutual Funds
+Medium,352356,Med,>8,low,Mutual Funds
+Medium,426723,Low,>8,high,Mutual Funds
+Medium,895981,Med,3-5,high,Mutual Funds
+Medium,397512,High,>8,med,Mutual Funds
+High,738205,Med,>8,med,stocks
+Medium,446635,Med,>8,high,Mutual Funds
+Medium,361970,Low,6-8,low,Mutual Funds
+Medium,370800,Low,>8,med,Mutual Funds
+Medium,152140,High,3-5,low,FD
+Medium,521865,High,>8,med,Mutual Funds
+Medium,343079,High,3-5,med,Mutual Funds
+High,591758,Med,>8,med,stocks
+Medium,793871,Med,3-5,high,Mutual Funds
+Medium,179955,Low,6-8,high,FD
+High,555778,Med,>8,low,stocks
+Medium,230019,Low,>8,low,FD
+Medium,286997,Low,3-5,med,FD
+Medium,616021,Low,>8,high,Mutual Funds
+Low,135183,Low,3-5,low,FD
+Medium,284616,Med,3-5,med,FD
+High,840804,High,>8,high,stocks
+Medium,229411,High,6-8,high,FD
+Medium,628740,Med,3-5,low,Mutual Funds
+Medium,451414,High,6-8,low,Mutual Funds
+Medium,141970,High,3-5,low,FD
+Medium,345771,Med,6-8,high,Mutual Funds
+High,816032,Med,>8,high,stocks
+Medium,104133,High,>8,low,FD
+Medium,123287,Low,6-8,med,FD
+Medium,209471,Med,>8,med,FD
+Medium,242789,Med,6-8,high,FD
+Medium,336069,Low,>8,low,Mutual Funds
+Medium,321487,High,6-8,med,Mutual Funds
+Medium,263485,Low,6-8,med,FD
+Medium,886022,High,3-5,low,Mutual Funds
+Medium,556660,Low,>8,high,Mutual Funds
+Medium,289038,Low,6-8,med,FD
+Medium,513588,Low,6-8,med,Mutual Funds
+Medium,496329,Med,6-8,low,Mutual Funds
+Medium,860982,Low,6-8,high,Mutual Funds
+Medium,397321,High,6-8,high,Mutual Funds
+Medium,210641,Low,6-8,low,FD
+Medium,983983,High,6-8,low,Mutual Funds
+Medium,428437,Med,6-8,med,Mutual Funds
+Medium,330741,High,3-5,med,Mutual Funds
+Low,126602,Low,3-5,low,FD
+Medium,598313,Med,6-8,high,Mutual Funds
+Medium,175530,Low,>8,low,FD
+Medium,250768,High,>8,med,FD
+Medium,114474,Med,3-5,med,FD
+Medium,704381,High,6-8,low,Mutual Funds
+Medium,722661,High,3-5,low,Mutual Funds
+Medium,486786,Low,6-8,low,Mutual Funds
+Medium,789353,High,6-8,med,Mutual Funds
+Medium,220415,High,>8,low,FD
+Medium,399673,High,6-8,low,Mutual Funds
+Medium,380005,High,3-5,low,Mutual Funds
+Medium,311724,Med,3-5,high,Mutual Funds
+Medium,460296,High,3-5,low,Mutual Funds
+Medium,147010,High,3-5,high,FD
+Medium,406667,Med,6-8,low,Mutual Funds
+Medium,137987,High,>8,low,FD
+Medium,151769,Med,6-8,med,FD
+Medium,114315,High,>8,med,FD
+Medium,615165,Med,6-8,med,Mutual Funds
+Medium,237221,Med,>8,med,FD
+Medium,902102,High,6-8,high,Mutual Funds
+Medium,798337,Low,3-5,low,Mutual Funds
+Medium,353324,High,6-8,low,Mutual Funds
+Medium,758372,Low,3-5,low,Mutual Funds
+Medium,399972,Med,6-8,high,Mutual Funds
+Medium,498226,Med,6-8,low,Mutual Funds
+Medium,187065,High,6-8,high,FD
+High,711116,High,>8,high,stocks
+Medium,124318,Med,6-8,low,FD
+High,851297,Med,>8,high,stocks
+Medium,637235,Low,3-5,low,Mutual Funds
+Medium,413513,High,6-8,low,Mutual Funds
+Medium,405361,High,>8,low,Mutual Funds
+High,813948,Med,>8,high,stocks
+Medium,422819,High,6-8,low,Mutual Funds
+Medium,170433,High,>8,high,FD
+Medium,690603,High,6-8,low,Mutual Funds
+Medium,259607,High,3-5,low,FD
+Medium,268824,Med,6-8,high,FD
+Medium,174286,High,>8,low,FD
+Medium,569676,Low,3-5,med,Mutual Funds
+Medium,191239,Med,3-5,med,FD
+Medium,648875,Low,>8,low,Mutual Funds
+Medium,372024,High,3-5,med,Mutual Funds
+Medium,757845,High,6-8,low,Mutual Funds
+Medium,487429,Med,3-5,med,Mutual Funds
+Medium,303019,High,>8,low,Mutual Funds
+Medium,480789,Med,3-5,high,Mutual Funds
+Medium,291147,Med,6-8,high,FD
+Medium,708697,Low,3-5,high,Mutual Funds
+Medium,414344,High,6-8,med,Mutual Funds
+Medium,523865,High,6-8,med,Mutual Funds
+Medium,347898,Low,>8,high,Mutual Funds
+Medium,569614,Med,6-8,med,Mutual Funds
+Medium,201680,Low,3-5,med,FD
+Medium,483935,Med,>8,high,Mutual Funds
+Medium,206592,High,>8,high,FD
+Low,274158,Low,3-5,low,FD
+Low,279660,Low,3-5,low,FD
+Medium,453050,Low,>8,med,Mutual Funds
+Medium,588127,Low,>8,med,Mutual Funds
+Medium,262460,Med,>8,med,FD
+Medium,287555,High,3-5,low,FD
+Medium,318337,Low,3-5,med,Mutual Funds
+Medium,826921,Low,>8,low,Mutual Funds
+Medium,507791,Med,6-8,high,Mutual Funds
+Medium,227415,Low,>8,low,FD
+Medium,782323,Low,3-5,med,Mutual Funds
+Medium,559448,Low,3-5,high,Mutual Funds
+Medium,176780,Med,3-5,low,FD
+Medium,489827,High,>8,low,Mutual Funds
+High,960092,Med,>8,med,stocks
+Medium,995728,High,6-8,low,Mutual Funds
+Medium,125441,Low,3-5,high,FD
+Medium,174139,High,>8,low,FD
+Medium,925409,Low,6-8,low,Mutual Funds
+Medium,364182,Med,3-5,low,Mutual Funds
+Medium,744874,Low,>8,med,Mutual Funds
+Medium,361939,Low,>8,low,Mutual Funds
+Medium,376331,Low,6-8,high,Mutual Funds
+Medium,622029,High,6-8,low,Mutual Funds
+Medium,391808,Low,>8,med,Mutual Funds
+Medium,140057,Low,6-8,low,FD
+Medium,974093,High,>8,low,Mutual Funds
+Medium,376766,High,3-5,low,Mutual Funds
+Medium,479408,Low,>8,high,Mutual Funds
+Medium,348182,Med,>8,med,Mutual Funds
+Medium,163462,Med,>8,high,FD
+Medium,415637,Low,>8,low,Mutual Funds
+Medium,274229,Low,3-5,high,FD
+Medium,400077,Low,>8,high,Mutual Funds
+Medium,426407,Med,>8,high,Mutual Funds
+High,626057,High,>8,high,stocks
+Medium,397932,Low,>8,low,Mutual Funds
+Medium,373773,Med,6-8,low,Mutual Funds
+Medium,480474,Low,>8,high,Mutual Funds
+Medium,275813,Low,6-8,med,FD
+Medium,435956,High,3-5,high,Mutual Funds
+Medium,291287,Low,3-5,med,FD
+Medium,440632,Low,>8,high,Mutual Funds
+Medium,422893,Low,3-5,low,Mutual Funds
+Medium,355831,Med,3-5,med,Mutual Funds
+Medium,145753,Low,6-8,high,FD
+High,855613,Med,>8,low,stocks
+Medium,388399,High,>8,high,Mutual Funds
+Medium,311897,Med,>8,med,Mutual Funds
+Medium,407104,Med,3-5,high,Mutual Funds
+Medium,475454,Med,6-8,med,Mutual Funds
+Medium,815416,Med,3-5,med,Mutual Funds
+Medium,404514,Low,3-5,high,Mutual Funds
+Medium,319110,Med,>8,low,Mutual Funds
+Medium,472072,Low,3-5,med,Mutual Funds
+Medium,242559,Med,6-8,med,FD
+Medium,702787,High,3-5,high,Mutual Funds
+Medium,324952,Low,3-5,med,Mutual Funds
+Medium,125049,Low,6-8,high,FD
+Medium,201239,Low,6-8,med,FD
+Medium,261871,High,6-8,high,FD
+Medium,484600,High,>8,high,Mutual Funds
+Medium,546524,High,>8,low,Mutual Funds
+Medium,291635,Med,3-5,med,FD
+Medium,953152,High,6-8,med,Mutual Funds
+Medium,396873,Med,3-5,low,Mutual Funds
+Medium,132914,High,3-5,high,FD
+Medium,470216,Med,6-8,low,Mutual Funds
+Medium,149409,Med,3-5,low,FD
+Low,206102,Low,3-5,low,FD
+Medium,177082,Med,6-8,high,FD
+Medium,978765,Low,>8,low,Mutual Funds
+Medium,438806,High,>8,high,Mutual Funds
+Medium,227636,Med,3-5,med,FD
+Medium,782994,High,6-8,low,Mutual Funds
+Medium,527512,High,>8,low,Mutual Funds
+Medium,162631,High,3-5,high,FD
+Medium,344131,Low,3-5,med,Mutual Funds
+Medium,429290,High,6-8,low,Mutual Funds
+Medium,802879,Med,6-8,low,Mutual Funds
+Medium,247221,Med,6-8,high,FD
+Medium,305911,High,6-8,high,Mutual Funds
+High,611684,Med,>8,low,stocks
+Medium,215845,High,6-8,med,FD
+Medium,124818,High,6-8,med,FD
+Medium,474263,High,>8,med,Mutual Funds
+Medium,299208,High,6-8,high,FD
+Medium,263397,High,6-8,med,FD
+Medium,893347,Low,3-5,med,Mutual Funds
+Medium,188554,Low,6-8,med,FD
+Medium,597839,Low,3-5,med,Mutual Funds
+High,715721,High,>8,high,stocks
+High,832928,High,>8,high,stocks
+Medium,148801,Low,3-5,med,FD
+High,853241,Med,>8,low,stocks
+Medium,119554,High,>8,high,FD
+Medium,211998,Low,3-5,high,FD
+Medium,547003,High,3-5,low,Mutual Funds
+Medium,435774,High,>8,med,Mutual Funds
+Medium,422628,Med,3-5,med,Mutual Funds
+Medium,939489,High,3-5,high,Mutual Funds
+High,644913,High,>8,high,stocks
+Medium,264503,High,3-5,high,FD
+Low,225082,Low,3-5,low,FD
+Medium,307272,Med,3-5,low,Mutual Funds
+Medium,850079,Low,6-8,high,Mutual Funds
+Medium,230461,High,6-8,low,FD
+Medium,498357,High,>8,high,Mutual Funds
+Medium,165537,Low,>8,high,FD
+Medium,664174,Low,3-5,low,Mutual Funds
+Medium,262163,High,6-8,med,FD
+Medium,664444,Low,6-8,low,Mutual Funds
+Medium,689054,Low,>8,low,Mutual Funds
+Medium,395496,High,6-8,med,Mutual Funds
+Medium,866588,Med,3-5,med,Mutual Funds
+Medium,501308,High,3-5,low,Mutual Funds
+Medium,926582,Low,3-5,high,Mutual Funds
+Medium,891881,High,3-5,low,Mutual Funds
+Medium,920879,Med,6-8,low,Mutual Funds
+Medium,869017,Med,3-5,med,Mutual Funds
+Medium,537446,Low,>8,high,Mutual Funds
+Medium,427862,High,>8,high,Mutual Funds
+Medium,494282,High,>8,med,Mutual Funds
+Medium,786415,Low,3-5,med,Mutual Funds
+Medium,355136,Med,6-8,high,Mutual Funds
+High,657000,Med,>8,high,stocks
+Medium,177331,High,6-8,med,FD
+Medium,182660,Med,6-8,med,FD
+Medium,764744,Low,3-5,low,Mutual Funds
+Medium,111347,Low,6-8,low,FD
+Medium,498551,Med,3-5,low,Mutual Funds
+Medium,323144,High,6-8,high,Mutual Funds
+Medium,236025,Low,6-8,med,FD
+Medium,496594,Med,6-8,med,Mutual Funds
+High,938739,High,>8,high,stocks
+Medium,381886,Low,>8,high,Mutual Funds
+Medium,941891,High,>8,low,Mutual Funds
+Medium,471497,High,>8,med,Mutual Funds
+Medium,122957,Low,6-8,high,FD
+Medium,424188,Med,3-5,low,Mutual Funds
+Medium,552251,High,>8,med,Mutual Funds
+Medium,284822,High,6-8,high,FD
+Medium,936139,Med,6-8,med,Mutual Funds
+Medium,284354,Med,>8,high,FD
+Medium,376619,High,>8,low,Mutual Funds
+Medium,134225,Med,>8,high,FD
+Medium,573835,Low,>8,med,Mutual Funds
+High,843552,Med,>8,low,stocks
+Medium,273850,High,6-8,med,FD
+Medium,588644,High,3-5,high,Mutual Funds
+Medium,738029,Low,>8,low,Mutual Funds
+Medium,347535,Low,6-8,low,Mutual Funds
+Medium,611651,Med,6-8,low,Mutual Funds
+Medium,458953,High,>8,low,Mutual Funds
+Medium,237334,Low,>8,low,FD
+Medium,208200,Low,6-8,med,FD
+Medium,527954,High,3-5,high,Mutual Funds
+Medium,307640,Low,>8,low,Mutual Funds
+High,771882,Med,>8,low,stocks
+Medium,291380,Med,3-5,med,FD
+Medium,607307,Med,3-5,low,Mutual Funds
+Medium,180078,Med,3-5,med,FD
+Medium,275564,High,>8,med,FD
+Medium,386741,Med,3-5,high,Mutual Funds
+Medium,558101,Med,6-8,high,Mutual Funds
+Medium,842370,High,6-8,high,Mutual Funds
+Medium,232328,Med,3-5,med,FD
+Medium,246565,High,6-8,high,FD
+Medium,412053,High,3-5,med,Mutual Funds
+Medium,306222,High,6-8,high,Mutual Funds
+Medium,361072,High,>8,med,Mutual Funds
+Medium,257781,High,6-8,med,FD
+Medium,269697,Low,3-5,high,FD
+High,919564,Med,>8,high,stocks
+Medium,377644,Low,3-5,high,Mutual Funds
+Medium,187624,High,3-5,high,FD
+Medium,132433,Low,6-8,med,FD
+Medium,928782,High,6-8,med,Mutual Funds
+High,991798,High,>8,high,stocks
+Medium,247841,Low,3-5,med,FD
+Medium,128176,Med,6-8,high,FD
+Medium,164492,High,>8,low,FD
+Medium,609648,High,6-8,med,Mutual Funds
+Medium,192375,Med,>8,high,FD
+Medium,294668,Low,>8,low,FD
+High,655124,Med,>8,low,stocks
+Medium,143225,Low,6-8,low,FD
+Medium,737646,High,3-5,high,Mutual Funds
+Medium,474869,Med,3-5,med,Mutual Funds
+Medium,773127,High,>8,low,Mutual Funds
+Medium,806318,Med,3-5,med,Mutual Funds
+Medium,175971,High,6-8,low,FD
+Medium,165244,High,3-5,high,FD
+Medium,586489,High,6-8,med,Mutual Funds
+Medium,133084,Med,3-5,med,FD
+Medium,826272,Low,>8,low,Mutual Funds
+Medium,322741,Med,>8,low,Mutual Funds
+Medium,692813,Low,>8,high,Mutual Funds
+Medium,119152,High,3-5,low,FD
+Medium,376512,High,>8,low,Mutual Funds
+Medium,364893,Low,3-5,low,Mutual Funds
+Medium,402826,High,3-5,med,Mutual Funds
+Medium,354595,Med,>8,low,Mutual Funds
+Medium,416033,High,>8,low,Mutual Funds
+Medium,978202,High,3-5,med,Mutual Funds
+Medium,420862,Low,6-8,low,Mutual Funds
+Medium,136108,Low,3-5,high,FD
+Medium,284065,Med,>8,low,FD
+Medium,340962,High,>8,low,Mutual Funds
+Medium,345977,Low,6-8,high,Mutual Funds
+Medium,433952,Low,>8,high,Mutual Funds
+Medium,378127,Med,6-8,med,Mutual Funds
+Medium,689643,High,6-8,med,Mutual Funds
+Medium,451124,Med,>8,low,Mutual Funds
+Medium,277484,Low,6-8,med,FD
+Medium,194997,Med,6-8,high,FD
+Medium,107093,High,>8,high,FD
+Medium,834115,Low,6-8,high,Mutual Funds
+Medium,774630,Low,3-5,low,Mutual Funds
+Medium,309028,Med,3-5,med,Mutual Funds
+High,693864,Med,>8,low,stocks
+Medium,672475,Low,3-5,med,Mutual Funds
+Medium,515610,High,>8,low,Mutual Funds
+Medium,203008,High,>8,med,FD
+Medium,390374,Low,3-5,med,Mutual Funds
+Medium,190818,Low,3-5,med,FD
+Low,240006,Low,3-5,low,FD
+Medium,869194,High,6-8,low,Mutual Funds
+Medium,320913,High,>8,med,Mutual Funds
+Medium,169001,Med,3-5,high,FD
+Medium,476027,Low,>8,low,Mutual Funds
+Medium,397478,Low,6-8,low,Mutual Funds
+Medium,827437,Low,3-5,low,Mutual Funds
+Medium,167186,Med,6-8,high,FD
+Medium,944388,Low,3-5,med,Mutual Funds
+Medium,348105,Med,>8,med,Mutual Funds
+Low,218819,Low,3-5,low,FD
+Medium,578714,Low,3-5,high,Mutual Funds
+Medium,333683,Low,3-5,high,Mutual Funds
+Medium,493785,Low,>8,high,Mutual Funds
+Medium,271217,High,>8,low,FD
+Medium,582015,Low,>8,med,Mutual Funds
+Medium,713025,High,>8,med,Mutual Funds
+Medium,104852,High,6-8,low,FD
+Medium,113365,High,6-8,low,FD
+Medium,164818,Med,>8,low,FD
+Medium,250892,Med,3-5,med,FD
+Medium,218359,Med,>8,low,FD
+Medium,244467,Low,6-8,low,FD
+Medium,972846,Low,3-5,high,Mutual Funds
+Medium,439699,Low,>8,low,Mutual Funds
+Medium,174176,High,3-5,high,FD
+Medium,363594,High,>8,low,Mutual Funds
+Medium,232972,High,3-5,low,FD
+Medium,119354,Med,3-5,low,FD
+Medium,741286,Low,6-8,low,Mutual Funds
+Medium,776119,Low,3-5,med,Mutual Funds
+Medium,467602,High,3-5,med,Mutual Funds
+Medium,355830,High,3-5,low,Mutual Funds
+Medium,895183,Med,6-8,low,Mutual Funds
+High,552377,Med,>8,med,stocks
+Medium,432270,Med,3-5,high,Mutual Funds
+High,960069,Med,>8,med,stocks
+Medium,354518,Med,6-8,high,Mutual Funds
+Medium,742921,Low,6-8,med,Mutual Funds
+Medium,628837,Low,3-5,high,Mutual Funds
+Low,236885,Low,3-5,low,FD
+Medium,658530,Med,6-8,high,Mutual Funds
+Medium,965600,Low,>8,med,Mutual Funds
+Medium,744689,High,3-5,high,Mutual Funds
+Medium,491798,Low,>8,med,Mutual Funds
+Medium,788098,Low,3-5,high,Mutual Funds
+High,682646,Med,>8,low,stocks
+Medium,210031,Med,6-8,low,FD
+Medium,218045,High,>8,low,FD
+High,508143,Med,>8,high,stocks
+Medium,303809,Med,>8,low,Mutual Funds
+Medium,404441,Low,3-5,med,Mutual Funds
+Medium,106237,Med,3-5,high,FD
+Medium,251083,High,>8,low,FD
+Medium,466704,High,>8,med,Mutual Funds
+Medium,720491,Med,3-5,low,Mutual Funds
+Medium,560108,High,3-5,med,Mutual Funds
+Low,157165,Low,3-5,low,FD
+Medium,725009,High,>8,med,Mutual Funds
+Medium,356448,Low,3-5,low,Mutual Funds
+Medium,489725,Low,>8,med,Mutual Funds
+Medium,260376,Med,>8,high,FD
+Medium,839553,Low,>8,med,Mutual Funds
+Medium,607321,Med,3-5,low,Mutual Funds
+Medium,377040,High,3-5,high,Mutual Funds
+Medium,178053,Low,6-8,med,FD
+Medium,202968,High,>8,low,FD
+Medium,933865,Med,6-8,high,Mutual Funds
+High,614515,Med,>8,high,stocks
+Medium,552130,Med,6-8,med,Mutual Funds
+Medium,570070,High,3-5,med,Mutual Funds
+Medium,648340,Low,3-5,low,Mutual Funds
+Medium,162538,Low,>8,med,FD
+Medium,256538,High,3-5,med,FD
+Medium,386787,High,>8,med,Mutual Funds
+Medium,303962,Low,3-5,high,Mutual Funds
+Medium,400167,Low,>8,high,Mutual Funds
+Medium,100944,Med,>8,high,FD
+Medium,430102,Med,6-8,high,Mutual Funds
+Medium,212861,Med,>8,high,FD
+Medium,936356,Med,3-5,low,Mutual Funds
+Medium,996949,High,6-8,high,Mutual Funds
+Medium,336168,Med,>8,low,Mutual Funds
+Medium,709270,Med,6-8,med,Mutual Funds
+Medium,397881,Med,6-8,high,Mutual Funds
+Medium,335087,Med,>8,low,Mutual Funds
+Medium,392864,High,3-5,high,Mutual Funds
+Medium,278565,Med,>8,high,FD
+Medium,375641,Med,>8,med,Mutual Funds
+Medium,877375,Low,3-5,high,Mutual Funds
+Medium,383579,High,6-8,high,Mutual Funds
+Medium,163063,High,>8,high,FD
+Medium,748117,High,6-8,med,Mutual Funds
+Medium,455081,Low,>8,med,Mutual Funds
+Medium,108062,High,6-8,low,FD
+Medium,654274,Low,>8,low,Mutual Funds
+Medium,240099,High,6-8,low,FD
+Medium,836118,High,6-8,high,Mutual Funds
+Medium,366801,Med,6-8,med,Mutual Funds
+Medium,118972,High,6-8,med,FD
+Medium,417977,Med,3-5,med,Mutual Funds
+Medium,233043,Med,>8,med,FD
+Medium,407225,High,6-8,low,Mutual Funds
+Low,105626,Low,3-5,low,FD
+Medium,529270,High,>8,low,Mutual Funds
