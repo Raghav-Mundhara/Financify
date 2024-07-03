@@ -11,6 +11,7 @@ import Profile from './pages/ProfilePage';
 import Expense from './pages/Expense';
 import NGODashboard from './pages/NGODashboard';
 import Rewards from './pages/Rewards';
+import NgoStudent from './pages/NgoStudent';
  
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         <Route path="/expenses" element={<Expense />} />
         <Route path='/ngoDashboard' element={<NGODashboard />} />
         <Route path='/rewards' element={<Rewards />} />
-        
+        <Route path="/student/:id" element={<NgoStudent/>} />
       </Routes>
     </BrowserRouter>
   );

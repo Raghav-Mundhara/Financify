@@ -20,7 +20,7 @@ todoRouter.post('/add/:studentID',ngoMiddleware,async (req,res)=>{
     }
     try {
         const todo=await todoModel.create({
-            studentId:req.userId,
+            studentId:req.params.studentID,
             title:req.body.title,
             description:req.body.description,
             points:req.body.points,
@@ -44,10 +44,6 @@ todoRouter.get('/get/:studentID',ngoMiddleware,async (req,res)=>{
 
 //Update Todo
 todoRouter.put('/update/:studentID/:id',ngoMiddleware,async (req,res)=>{
-    const parseResult=todoSchema.safeParse(req.body);
-    if(!parseResult.success){
-        return res.status(400).json({msg:"Invalid Data"});
-    }
     try {
         const todo=await todoModel.findOneAndUpdate({_id:req.params.id,studentId:req.params.studentID},{
             title:req.body.title,

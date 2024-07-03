@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import NgoHeader from '../components/NgoHeader';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 function NGODashboard() {
   const [student, setStudent] = useState([]);
+  const navigate=useNavigate();
   useEffect(() => {
     const students = async () => {
       const token = localStorage.getItem('token');
@@ -32,6 +34,7 @@ function NGODashboard() {
             (
               <div onClick={()=>{
                 alert(student._id)
+                navigate(`/student/${student._id}`)
               }} key={student._id} className='bg-amber-600 text-black rounded-xl w-1/3 mb-2 mt-2 border border-black pl-2 py-2 ml-2'>
                 <h1>Name:-{student.name}</h1>
                 <h1>Email:-{student.email}</h1>
