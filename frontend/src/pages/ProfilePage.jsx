@@ -37,39 +37,41 @@ export default function Profile() {
 
     return (
         <div className='bg-navy h-full flex'>
-            <div className='w-1/4 bg-white text-black p-4'>
-                <Heading title="Profile" />
-                <SubHeading subheading="Your account details" />
-                <div className='mt-4'>
-                    <div className='py-2'>
-                        <strong>Name:</strong> {student.name}
-                    </div>
-                    <div className='py-2'>
-                        <strong>Email:</strong> {student.email}
-                    </div>
-                    <div className='py-2'>
-                        <strong>Age:</strong> {student.age}
-                    </div>
-                    <div className='py-2'>
-                        <strong>Income:</strong> {student.income}
-                    </div>
-                    <div className='py-2'>
-                        <strong>Virtual Currency:</strong> {student.virtualCurrency}
-                    </div>
-                    <div className='py-2'>
-                        <strong>NGO:</strong> {ngo.name}
-                    </div>
+            <div className='w-1/4 bg-white text-black p-4 border border-black flex flex-col items-center justify-center'>
+                <div className=''>
+                    <Heading title="Profile" />
+                    <SubHeading subheading="Your account details" />
                     <div className='mt-4'>
-                        <button
-                            className='bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300'
-                            onClick={() => navigate('/expenses')}
-                        >
-                            Track my Expenses
-                        </button>
+                        <div className='py-2'>
+                            <strong>Name:</strong> {student.name}
+                        </div>
+                        <div className='py-2'>
+                            <strong>Email:</strong> {student.email}
+                        </div>
+                        <div className='py-2'>
+                            <strong>Age:</strong> {student.age}
+                        </div>
+                        <div className='py-2'>
+                            <strong>Income:</strong> {student.income}
+                        </div>
+                        <div className='py-2'>
+                            <strong>Virtual Currency:</strong> {student.virtualCurrency}
+                        </div>
+                        <div className='py-2'>
+                            <strong>NGO:</strong> {ngo.name}
+                        </div>
+                        <div className='mt-4'>
+                            <button
+                                className='bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300'
+                                onClick={() => navigate('/expenses')}
+                            >
+                                Track my Expenses
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className='flex-1 p-10 h-min border border-red-900'>
+            <div className='flex-1 p-10 h-screen '>
                 <Expense />
             </div>
         </div>

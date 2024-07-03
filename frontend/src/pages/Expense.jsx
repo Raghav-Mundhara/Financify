@@ -99,10 +99,10 @@ export default function Expense() {
     };
 
     return (
-        <div className='bg-navy-800 h-full flex'>
-            <div className='flex justify-center'>
-                <div>
-                    <div className='rounded-lg bg-white text-center p-4 border border-red-900'>
+        <div className='bg-navy-800 h-full flex flex-col items-center justify-center'>
+            <div className='flex justify-center space-x-20'>
+                <div >
+                    <div className='rounded-lg bg-white text-center p-4'>
                         <Heading title="Expenses" />
                         <SubHeading subheading="Manage your expenses" />
                         <div className='text-left px-4'>
@@ -163,45 +163,47 @@ export default function Expense() {
                         <button
                             className='bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300'
                             onClick={() => navigate('/rewards')}
-                            >
+                        >
                             Claim your reward!
                         </button>
                     </div>
                 </div>
-                <div className='mx-5'>
+                <div className='ml-5'>
                     {showExpenses && (
                         <div className='rounded-lg bg-white text-center p-4'>
                             <Heading title="Your Expenses" />
-                            <ul className='text-left'>
-                                {expenses.map((expense) => (
-                                    <li key={expense._id} className='mb-4 p-2 border-b'>
-                                        <p><strong>Description:</strong> {expense.description}</p>
-                                        <p><strong>Amount:</strong> {expense.amount}</p>
-                                        <p><strong>Date:</strong> {new Date(expense.date).toLocaleDateString()}</p>
-                                        <p><strong>Category:</strong> {expense.category}</p>
-                                        <button
-                                            onClick={() => handleDeleteExpense(expense._id)}
-                                            className='bg-red-500 text-white py-1 px-2 rounded-full hover:bg-red-700 transition duration-300 mr-2'
-                                        >
-                                            Delete
-                                        </button>
-                                        <button
-                                            onClick={() => {
-                                                setSelectedExpense(expense);
-                                                setNewExpense({
-                                                    description: expense.description,
-                                                    amount: expense.amount,
-                                                    date: expense.date.substring(0, 10),
-                                                    category: expense.category
-                                                });
-                                            }}
-                                            className='bg-yellow-500 text-white py-1 px-2 rounded-full hover:bg-yellow-700 transition duration-300'
-                                        >
-                                            Edit
-                                        </button>
-                                    </li>
-                                ))}
-                            </ul>
+                            <div className='overflow-y-auto h-80'>
+                                <ul className='text-left'>
+                                    {expenses.map((expense) => (
+                                        <li key={expense._id} className='mb-4 p-2 border-b'>
+                                            <p><strong>Description:</strong> {expense.description}</p>
+                                            <p><strong>Amount:</strong> {expense.amount}</p>
+                                            <p><strong>Date:</strong> {new Date(expense.date).toLocaleDateString()}</p>
+                                            <p><strong>Category:</strong> {expense.category}</p>
+                                            <button
+                                                onClick={() => handleDeleteExpense(expense._id)}
+                                                className='bg-red-500 text-white py-1 px-2 rounded-full hover:bg-red-700 transition duration-300 mr-2'
+                                            >
+                                                Delete
+                                            </button>
+                                            <button
+                                                onClick={() => {
+                                                    setSelectedExpense(expense);
+                                                    setNewExpense({
+                                                        description: expense.description,
+                                                        amount: expense.amount,
+                                                        date: expense.date.substring(0, 10),
+                                                        category: expense.category
+                                                    });
+                                                }}
+                                                className='bg-yellow-500 text-white py-1 px-2 rounded-full hover:bg-yellow-700 transition duration-300'
+                                            >
+                                                Edit
+                                            </button>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                     )}
                 </div>
