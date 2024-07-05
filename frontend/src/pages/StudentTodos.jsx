@@ -63,7 +63,7 @@ const StudentTodos = () => {
 
     return (
         <div>
-            <StudentHeader student={student} />
+            {/* <StudentHeader student={student} /> */}
             <div className='flex justify-around bg-navy h-screen'>
                 <div>
                     <h2 className='text-3xl text-bold text-white'>Today's Todos</h2>

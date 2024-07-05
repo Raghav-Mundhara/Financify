@@ -24,7 +24,8 @@ todoRouter.post('/add/:studentID',ngoMiddleware,async (req,res)=>{
             title:req.body.title,
             description:req.body.description,
             points:req.body.points,
-            completed:false
+            completed:false,
+            date:req.body.date || Date.now()
         });
         return res.status(200).json(todo);
     } catch (error) {
@@ -33,7 +34,7 @@ todoRouter.post('/add/:studentID',ngoMiddleware,async (req,res)=>{
 })
 
 //Get All Todos
-todoRouter.get('/get/:studentID',ngoMiddleware,async (req,res)=>{
+todoRouter.get('/get/:studentID',(ngoMiddleware || studentMiddleware),async (req,res)=>{
     try {
         const todos=await todoModel.find({studentId:req.params.studentID});
         return res.status(200).json(todos);
