@@ -12,6 +12,7 @@ function NgoStudent() {
     const [description, setDescription] = useState('');
     const [student, setStudent] = useState({});
     const [todos, setTodos] = useState([]);
+    const [date, setDate] = useState(Date.now());
     const handleOptionChange = (event) => {
         setSelectedPoint(event.target.value);
     };
@@ -36,7 +37,8 @@ function NgoStudent() {
             const response = await axios.post(`http://localhost:3000/todo/add/${params.id}`, {
                 title: title,
                 description: description,
-                points: Number(selectedPoint)
+                points: Number(selectedPoint),
+                date: date
             }, {
                 headers: {
                     authorization: `${localStorage.getItem('token')}`
@@ -142,6 +144,13 @@ function NgoStudent() {
                                         <label htmlFor="option3">3 VC</label>
                                     </div>
                                 </div>
+                                <div className='flex items-center'>
+                                    <p>Date:- &nbsp;</p>
+                                    <input type="date" name="date" id="date" className='mt-2 ' onChange={(e)=>{
+                                        setDate(e.target.value);
+                                        console.log(e.target.value);
+                                    }} />
+                                </div>
                                 <Button label="ADD" onClick={() => {
                                     addTodo();
                                 }} />
@@ -156,7 +165,7 @@ function NgoStudent() {
                                 <div key={todo._id} className='bg-navy m-2 p-2 rounded-lg'>
                                     <div className='flex items-center'>
                                         <h1 className='text-white text-xl text-bold'>{todo.title}</h1>
-                                        <div className='ml-2 cursor-pointer' style={{ width: '20px', height: '20px' }} onClick={()=>{
+                                        <div className='ml-2 cursor-pointer' style={{ width: '20px', height: '20px' }} onClick={() => {
                                             deleteTodo(todo._id);
                                         }}>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="delete" style={{ width: '100%', height: '100%' }}>

@@ -12,6 +12,7 @@ import Expense from './pages/Expense';
 import NGODashboard from './pages/NGODashboard';
 import Rewards from './pages/Rewards';
 import NgoStudent from './pages/NgoStudent';
+import StudentTodos from './pages/StudentTodos';
  
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/ngoDashboard' element={<NGODashboard />} />
         <Route path='/rewards' element={<Rewards />} />
         <Route path="/student/:id" element={<NgoStudent/>} />
+        <Route path="/student-todos/:id" element={<StudentTodos/>} />
       </Routes>
     </BrowserRouter>
   );
