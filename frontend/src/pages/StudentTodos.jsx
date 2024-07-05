@@ -16,9 +16,8 @@ const StudentTodos = () => {
                     'Authorization': localStorage.getItem("token")
                 }
             });
-            response.data.sort((a, b) => a.points - b.points)
+            response.data.sort((a, b) => a.points - b.points);
             setTodos(response.data);
-            console.log(response.data);
         } catch (err) {
             console.log(err);
         }
@@ -47,23 +46,41 @@ const StudentTodos = () => {
         fetchTodos();
     }, []);
 
+    const convertToIST = (date) => {
+        let utcDate = new Date(date.toLocaleString('en-US', { timeZone: 'UTC' }));
+        utcDate.setHours(utcDate.getHours() + 5);
+        utcDate.setMinutes(utcDate.getMinutes() + 30);
+        return utcDate;
+    };
+
     const formatDate = (date) => {
         return date.toISOString().split('T')[0];
     };
 
-    const today = new Date();
+    const today = convertToIST(new Date());
     const tomorrow = new Date(today);
     tomorrow.setDate(today.getDate() + 1);
 
     const todayStr = formatDate(today);
     const tomorrowStr = formatDate(tomorrow);
 
-    const todayTodos = todos.filter(todo => todo.date.startsWith(todayStr));
-    const tomorrowTodos = todos.filter(todo => todo.date.startsWith(tomorrowStr));
+    console.log(todayStr, tomorrowStr);
+
+    const todayTodos = todos.filter(todo => {
+        const todoDate = formatDate(convertToIST(new Date(todo.date)));
+        console.log(todo);
+        console.log(todoDate, todayStr);
+        return todoDate === todayStr;
+    });
+
+    const tomorrowTodos = todos.filter(todo => {
+        const todoDate = formatDate(convertToIST(new Date(todo.date)));
+        return todoDate === tomorrowStr;
+    });
 
     return (
         <div>
-            {/* <StudentHeader student={student} /> */}
+            {student && <StudentHeader student={student} />}
             <div className='flex justify-around bg-navy h-screen'>
                 <div>
                     <h2 className='text-3xl text-bold text-white'>Today's Todos</h2>
@@ -92,6 +109,6 @@ const TodoCard = ({ todos }) => {
             ))}
         </div>
     );
-}
+};
 
 export default StudentTodos;

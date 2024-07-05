@@ -1,7 +1,6 @@
 import React from 'react';
 
 const StudentHeader = (props) => {
-    console.log(props.student.name);
     return (
         <div className='flex justify-between items-center p-2 bg-amber-500'>
             <div>
