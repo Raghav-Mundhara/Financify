@@ -84,11 +84,11 @@ const StudentTodos = () => {
             <div className='flex justify-around bg-navy h-screen'>
                 <div>
                     <h2 className='text-3xl text-bold text-white'>Today's Todos</h2>
-                    <TodoCard todos={todayTodos} />
+                    {todayTodos.length>0? <TodoCard todos={todayTodos} />:null}
                 </div>
                 <div>
                     <h2 className='text-3xl text-bold text-white'>Tomorrow's Todos</h2>
-                    <TodoCard todos={tomorrowTodos} />
+                    {tomorrowTodos.length>0? <TodoCard todos={tomorrowTodos} />:null}
                 </div>
             </div>
         </div>
@@ -104,7 +104,18 @@ const TodoCard = ({ todos }) => {
                     <p className='text-md'>{todo.description}</p>
                     <p className='text-md'>{todo.points} points</p>
                     <p className='text-md'>{todo.completed ? "Completed" : "Pending"}</p>
-                    {todo.completed ? null : <button className='bg-navy text-white px-2 rounded-lg my-2'>Send for verification</button>}
+                    {todo.completed ? null : <button className='bg-navy text-white px-2 rounded-lg my-2' onClick={async()=>{
+                        try {
+                            const response = await axios.put(`http://localhost:3000/todo/verify/${todo._id}`, {}, {
+                                headers: {
+                                    'Authorization': localStorage.getItem("token")
+                                }
+                            });
+                            console.log(response.data);
+                        } catch (err) {
+                            console.log(err);
+                        }
+                    }}>Send for verification</button>}
                 </div>
             ))}
         </div>

@@ -2,8 +2,10 @@ import mongoose from 'mongoose';
 import express from 'express';
 import zod from 'zod';
 import todoModel from '../models/todo.model.js';
+import ngoModel from '../models/ngo.model.js';
 import {studentMiddleware} from '../middlewares/student.js';
 import {ngoMiddleware} from '../middlewares/ngo.js';
+import studentModel from '../models/student.model.js';
 const todoSchema=zod.object({
     title:zod.string(),
     description:zod.string(),
@@ -69,4 +71,28 @@ todoRouter.delete('/delete/:studentID/:id',ngoMiddleware,async (req,res)=>{
     }
 });
 
+todoRouter.put('/verify/:id',studentMiddleware,async (req,res)=>{
+    try{
+        console.log(req.userId);
+        const student=await studentModel.findOne({
+            _id:req.userId,
+        })
+        console.log(student);
+        const ngo=await ngoModel.findOne({
+            _id:student.ngo,
+        })
+        console.log(ngo);
+        const response=await ngoModel.findOneAndUpdate({
+            _id:student.ngo,
+        },{
+            $push:{
+                todoRequests:req.params.id,
+            }
+        })
+        console.log(response);
+        return res.status(200).json(response);
+    }catch(e){
+        return res.status(400).json({error:"Error"})
+    }
+})
 export default todoRouter;
