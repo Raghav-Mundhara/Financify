@@ -63,9 +63,9 @@ export default function Profile() {
                         <div className='mt-4'>
                             <button
                                 className='bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300'
-                                onClick={() => navigate('/expenses')}
+                                onClick={() => navigate(`/student-todos/${student._id}`)}
                             >
-                                Track my Expenses
+                                Track my Chores
                             </button>
                         </div>
                     </div>

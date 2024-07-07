@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { date } from "zod";
 
 const todoSchema=new mongoose.Schema({
     title:{
@@ -20,6 +21,10 @@ const todoSchema=new mongoose.Schema({
     points:{
         type:Number,
         require:true,
+    },
+    date:{
+        type:Date,
+        default:Date.now
     }
 });
 const todoModel=mongoose.model("Todo",todoSchema);
