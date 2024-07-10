@@ -40,13 +40,42 @@ export default function Profile() {
                 <div className='rounded-lg bg-white text-center p-2 h-max px-4'>
                     <Heading title="Profile" />
                     <SubHeading subheading="Your account details" />
-                    <div className='text-left px-4'>
-                        <p><strong>Name:</strong> {student.name}</p>
-                        <p><strong>Email:</strong> {student.email}</p>
-                        <p><strong>Age:</strong> {student.age}</p>
-                        <p><strong>Income:</strong> {student.income}</p>
-                        <p><strong>Virtual Currency:</strong> {student.virtualCurrency}</p>
-                        <p><strong>NGO:</strong> {ngo.name}</p>
+                    <div className='mt-4'>
+                        <div className='py-2'>
+                            <strong>Name:</strong> {student.name}
+                        </div>
+                        <div className='py-2'>
+                            <strong>Email:</strong> {student.email}
+                        </div>
+                        <div className='py-2'>
+                            <strong>Age:</strong> {student.age}
+                        </div>
+                        <div className='py-2'>
+                            <strong>Income:</strong> {student.income}
+                        </div>
+                        <div className='py-2'>
+                            <strong>Virtual Currency:</strong> {student.virtualCurrency}
+                        </div>
+                        <div className='py-2'>
+                            <strong>NGO:</strong> {ngo.name}
+                        </div>
+                        <div className='mt-4'>
+                            <button
+                                className='bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300'
+                                onClick={() => navigate(`/student-todos/${student._id}`)}
+                            >
+                                Track my Chores
+                            </button>
+
+                            <button
+                                className='bg-green-600 text-white py-2 px-4 rounded-full hover:bg-green-700 transition duration-300 block'
+                                onClick={() => navigate('/quiz')}
+                                style={{ marginTop: '10px' }}
+                            >
+                                Take a Quiz
+                            </button>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
