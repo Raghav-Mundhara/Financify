@@ -25,6 +25,10 @@ const todoSchema=new mongoose.Schema({
     date:{
         type:Date,
         default:Date.now
+    },
+    verifyRequest:{
+        type:Boolean,
+        default:false
     }
 });
 const todoModel=mongoose.model("Todo",todoSchema);

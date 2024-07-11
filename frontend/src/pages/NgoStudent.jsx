@@ -177,7 +177,8 @@ function NgoStudent() {
                                     <p className='text-white'>{todo.description}</p>
                                     <p className='text-white'>{todo.points} VC</p>
                                     <div className='flex'>
-                                        <input
+                                        {todo.verifyRequest ? <div className='flex'>
+                                            <input
                                             type="checkbox"
                                             id="status"
                                             name="status"
@@ -185,7 +186,10 @@ function NgoStudent() {
                                             onChange={() => {
                                                 handleStatusChange(todo._id, todo.completed);
                                             }} />
-                                        <p className='text-white'>{todo.completed ? 'Completed' : 'Not Completed'}</p>
+                                            &nbsp;
+                                            <p className='text-white'>Request Pending</p>
+                                        </div> :  <p className='text-white'>Not Completed</p>}
+                                        {todo.completed ? <p className='text-white'>Completed</p> :null}
                                     </div>
                                 </div>
 

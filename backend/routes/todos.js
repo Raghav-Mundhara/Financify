@@ -73,22 +73,11 @@ todoRouter.delete('/delete/:studentID/:id',ngoMiddleware,async (req,res)=>{
 
 todoRouter.put('/verify/:id',studentMiddleware,async (req,res)=>{
     try{
-        console.log(req.userId);
-        const student=await studentModel.findOne({
-            _id:req.userId,
-        })
-        console.log(student);
-        const ngo=await ngoModel.findOne({
-            _id:student.ngo,
-        })
-        console.log(ngo);
-        const response=await ngoModel.findOneAndUpdate({
-            _id:student.ngo,
+        const todo=await todoModel.findByIdAndUpdate(req.params.id,{
+            verifyRequest:true
         },{
-            $push:{
-                todoRequests:req.params.id,
-            }
-        })
+            new:true
+        });
         console.log(response);
         return res.status(200).json(response);
     }catch(e){

@@ -33,7 +33,6 @@ function NGODashboard() {
             {student.map((student) =>
             (
               <div onClick={()=>{
-                alert(student._id)
                 navigate(`/student/${student._id}`)
               }} key={student._id} className='bg-amber-600 text-black rounded-xl w-1/3 mb-2 mt-2 border border-black pl-2 py-2 ml-2'>
                 <h1>Name:-{student.name}</h1>

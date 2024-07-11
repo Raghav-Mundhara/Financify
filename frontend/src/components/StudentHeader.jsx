@@ -10,7 +10,10 @@ const StudentHeader = (props) => {
                 <div>
                     Profile
                 </div>
-                <div>
+                <div onClick={()=>{
+                    localStorage.removeItem("token");
+                    window.location.href='/';
+                }}>
                     Logout
                 </div>
             </div>
