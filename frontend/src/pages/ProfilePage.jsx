@@ -3,6 +3,7 @@ import Heading from '../components/Heading';
 import SubHeading from '../components/SubHeading';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Expense from './Expense';
 
 export default function Profile() {
     const [student, setStudent] = useState(null);
@@ -19,7 +20,7 @@ export default function Profile() {
                 }
                 const response = await axios.get('http://localhost:3000/student/profile', {
                     headers: {
-                        'Authorization': `Bearer ${token}`
+                        'Authorization': `${token}`
                     }
                 });
                 setStudent(response.data.student);
@@ -35,9 +36,9 @@ export default function Profile() {
     if (!student || !ngo) return <div>Loading...</div>;
 
     return (
-        <div className='bg-navy-800 h-screen flex justify-center pt-10'>
-            <div className='flex flex-column justify-center'>
-                <div className='rounded-lg bg-white text-center p-2 h-max px-4'>
+        <div className='bg-navy h-full flex'>
+            <div className='w-1/4 bg-white text-black p-4 border border-black flex flex-col items-center justify-center'>
+                <div className=''>
                     <Heading title="Profile" />
                     <SubHeading subheading="Your account details" />
                     <div className='mt-4'>
@@ -78,6 +79,9 @@ export default function Profile() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='flex-1 p-10 h-screen '>
+                <Expense />
             </div>
         </div>
     );

@@ -28,8 +28,11 @@ const NGOSchema = new mongoose.Schema({
     requests: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Student'
+    }],
+    todoRequests: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Todo'
     }]
-
 });
 
 const ngoModel=mongoose.model('Ngo',NGOSchema);
