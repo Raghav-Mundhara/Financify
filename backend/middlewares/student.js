@@ -4,6 +4,7 @@ dotenv.config();
 
 export const studentMiddleware = (req, res, next) => {
     const token = req.headers.authorization;
+    console.log(token);
     if (token) {
         try {
             const result = jwt.verify(token, process.env.JWT_SECRET);

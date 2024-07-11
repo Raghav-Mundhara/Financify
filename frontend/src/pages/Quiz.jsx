@@ -48,7 +48,11 @@ const Quiz = () => {
             const selectedOption = answers[question._id];
             const response = await axios.post('http://localhost:3000/quiz/answer', {
                 questionId: question._id,
-                selectedOption: selectedOption
+                selectedOption
+            },{
+                headers: {
+                    Authorization: `${localStorage.getItem('token')}`
+                }
             });
             if (response.data.isCorrect) {
                 totalPoints += response.data.points; 

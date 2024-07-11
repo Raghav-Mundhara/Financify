@@ -46,20 +46,14 @@ quizRouter.post('/answer', studentMiddleware, async (req, res) => {
 
         const { questionId, selectedOption } = parseResult.data;
 
-        // Find the quiz question by ID
         const quiz = await quizModel.findById(questionId);
         if (!quiz) {
             return res.status(404).json({ msg: "Quiz question not found" });
         }
-
-        
         const isCorrect = quiz.correctAnswer === selectedOption;
         const points = isCorrect ? 2 : 0; 
-
-        
-        const studentId = req.body.userId; 
+        const studentId = req.userId; 
         let studentScore = await scoreModel.findOne({ studentId });
-
         if (!studentScore) {
             studentScore = new scoreModel({
                 studentId,

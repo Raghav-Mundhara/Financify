@@ -9,11 +9,11 @@ import SignInStudent from './pages/SignInStudent';
 import NGORequests from './pages/NGORequests';
 import Profile from './pages/ProfilePage';
 import Expense from './pages/Expense';
-import NGODashboard from './pages/NGODashboard';
+import NGODashboard from './pages/ngoDashboard';
 import Rewards from './pages/Rewards';
 import NgoStudent from './pages/NgoStudent';
 import StudentTodos from './pages/StudentTodos';
- 
+import Quiz from './pages/Quiz';
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
         <Route path='/rewards' element={<Rewards />} />
         <Route path="/student/:id" element={<NgoStudent/>} />
         <Route path="/student-todos/:id" element={<StudentTodos/>} />
+        <Route path ="quiz" element={<Quiz/>} />
       </Routes>
     </BrowserRouter>
   );
