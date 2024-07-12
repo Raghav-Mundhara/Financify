@@ -58,10 +58,7 @@ videoRouter.post('/upload', studentMiddleware, upload.single('video'), async (re
         });
 
         await newVideo.save();
-
-        // Clean up the file after upload
         fs.unlinkSync(video.path);
-
         res.status(201).json({ msg: 'Video uploaded successfully' });
     } catch (error) {
         console.error("Error uploading video:", error);
@@ -69,4 +66,14 @@ videoRouter.post('/upload', studentMiddleware, upload.single('video'), async (re
     }
 });
 
+// Endpoint for fetching all videos
+videoRouter.get('/', async (req, res) => {
+    try {
+        const videos = await videoModel.find();
+        res.status(200).json(videos);
+    } catch (error) {
+        console.error("Error fetching videos:", error);
+        res.status(400).json({ error: 'Error fetching videos' });
+    }
+});
 export default videoRouter;

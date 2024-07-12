@@ -15,6 +15,7 @@ import NgoStudent from './pages/NgoStudent';
 import StudentTodos from './pages/StudentTodos';
 import Quiz from './pages/Quiz';
 import { UploadVideo} from './pages/UploadVideo';
+import Videos from './pages/Videos';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         <Route path="/student/:id" element={<NgoStudent/>} />
         <Route path="/student-todos/:id" element={<StudentTodos/>} />
         <Route path ="quiz" element={<Quiz/>} />
-        <Route path="videos" element={<UploadVideo/>} />
+        <Route path="post-video" element={<UploadVideo/>} />
+        <Route path='video' element={<Videos/>} />
       </Routes>
     </BrowserRouter>
   );
