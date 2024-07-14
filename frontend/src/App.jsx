@@ -8,6 +8,13 @@ import SignInStudent from './pages/SignInStudent';
 import NGODashboard from './pages/NGODashboard';
 import NGORequests from './pages/NGORequests';
 import Profile from './pages/ProfilePage';
+import Expense from './pages/Expense';
+import NGODashboard from './pages/ngoDashboard';
+import Rewards from './pages/Rewards';
+import NgoStudent from './pages/NgoStudent';
+import StudentTodos from './pages/StudentTodos';
+import Quiz from './pages/Quiz';
+import InvestmentInput from './pages/InvestmentInput';
 
 function App() {
   return (
@@ -21,7 +28,13 @@ function App() {
         <Route path="/dashboard" element={<NGODashboard />} />
         <Route path="/requests" element={<NGORequests />} />
         <Route path="/profile" element={<Profile />} />
-
+        <Route path="/expenses" element={<Expense />} />
+        <Route path='/ngoDashboard' element={<NGODashboard />} />
+        <Route path='/rewards' element={<Rewards />} />
+        <Route path="/student/:id" element={<NgoStudent/>} />
+        <Route path="/student-todos/:id" element={<StudentTodos/>} />
+        <Route path ="/quiz" element={<Quiz/>} />
+        <Route path ="/investment" element={<InvestmentInput/>} />
       </Routes>
     </BrowserRouter>
   );
