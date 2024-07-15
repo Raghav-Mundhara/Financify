@@ -20,7 +20,7 @@ export const UploadVideo = () => {
         formData.append('point', point);
         console.log(formData);
         try {
-            const response =await axios.post('http://localhost:3000/videos/upload', formData, {
+            const response = await axios.post('http://localhost:3000/videos/upload', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                     'Authorization': localStorage.getItem('token')
@@ -36,28 +36,28 @@ export const UploadVideo = () => {
             console.error("Error uploading video:", error);
         }
     }
-  return (
-    <div>
-        <h1>Upload Video</h1>
-        <form>
-            <div>
-            <label htmlFor="title">Title:</label>
-            <input type="text" id="title" value={title} onChange={(e)=>setTitle(e.target.value)} />
-            </div>
-            <div>
-            <label htmlFor="description">Description:</label>
-            <input type="text" id="description" value={description} onChange={(e)=>setDescription(e.target.value)} />
-            </div>
-            <div>
-            <label htmlFor="video">Video:</label>
-            <input type="file" id="video" onChange={handleVideo} />
-            </div>
-            <div>
-            <label htmlFor="point">Point:</label>
-            <input type="number" id="point" value={point} onChange={(e)=>setPoint(e.target.value)} />
-            </div>
-            <button type="submit" onClick={handleSubmit}>Upload</button>
-        </form>
-    </div>
-  )
+    return (
+        <div>
+            <h1>Upload Video</h1>
+            <form>
+                <div >
+                    <label htmlFor="title">Title:</label>
+                    <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} />
+                </div>
+                <div>
+                    <label htmlFor="description">Description:</label>
+                    <input type="text" id="description" value={description} onChange={(e) => setDescription(e.target.value)} />
+                </div>
+                <div>
+                    <label htmlFor="video">Video:</label>
+                    <input type="file" id="video" onChange={handleVideo} />
+                </div>
+                <div>
+                    <label htmlFor="point">Point:</label>
+                    <input type="number" id="point" value={point} onChange={(e) => setPoint(e.target.value)} />
+                </div>
+                <button type="submit" onClick={handleSubmit}>Upload</button>
+            </form>
+        </div>
+    )
 }
