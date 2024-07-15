@@ -16,6 +16,7 @@ connectDB();
 
 app.use('/ngo', ngoRouter);
 app.use('/student',studentRouter);
+app.use('/expense',expenseRouter)
 app.use('/utils',utilRouter);
 app.use('/todo',todoRouter);
 app.use('/quiz',quizRouter);

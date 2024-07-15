@@ -10,7 +10,7 @@ const QuizSchema = new mongoose.Schema({
         required: true
     },
     options: {
-        type: Array,
+        type: [String],
         required: true
     },
     correctAnswer: {
@@ -21,7 +21,7 @@ const QuizSchema = new mongoose.Schema({
         type: Number,
         required: true
     }
-});
+},{ collection: 'quizzes' });
 
 const quizModel=mongoose.model('Quiz',QuizSchema);
 

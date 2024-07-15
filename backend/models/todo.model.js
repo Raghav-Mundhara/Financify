@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { date } from "zod";
 
 const todoSchema=new mongoose.Schema({
     title:{
@@ -17,9 +18,17 @@ const todoSchema=new mongoose.Schema({
         type:mongoose.Schema.Types.ObjectId,
         ref:'Student'
     },
-    point:{
+    points:{
         type:Number,
         require:true,
+    },
+    date:{
+        type:Date,
+        default:Date.now
+    },
+    verifyRequest:{
+        type:Boolean,
+        default:false
     }
 });
 const todoModel=mongoose.model("Todo",todoSchema);
