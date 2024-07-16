@@ -24,6 +24,8 @@ quizRouter.get('/questions', async (req, res) => {
     }
 });
 
+
+
 // Function to determine literacy rate based on points
 const determineLiteracyRate = (points) => {
     if (points > 8) {
@@ -58,11 +60,11 @@ quizRouter.post('/answer', studentMiddleware, async (req, res) => {
             studentScore = new scoreModel({
                 studentId,
                 points: points,
-                literacyRate: determineLiteracyRate(points) // Determine initial literacy rate
+                literacyRate: determineLiteracyRate(points) 
             });
         } else {
             studentScore.points += points;
-            studentScore.literacyRate = determineLiteracyRate(studentScore.points); // Update literacy rate based on total points
+            studentScore.literacyRate = determineLiteracyRate(studentScore.points); 
         }
 
         await studentScore.save();
@@ -73,5 +75,20 @@ quizRouter.post('/answer', studentMiddleware, async (req, res) => {
         return res.status(400).json({ error: 'Error recording answer' });
     }
 });
+// Endpoint to get literacy rate by studentId
+quizRouter.get('/literacy-rate', studentMiddleware, async (req, res) => {
+    try {
+        const studentId = req.userId;
+        const studentScore = await scoreModel.findOne({ studentId });
+        if (!studentScore) {
+            return res.status(404).json({ msg: "Student not found" });
+        }
+        return res.status(200).json({ literacyRate: studentScore.literacyRate });
+    } catch (error) {
+        console.error("Error fetching literacy rate:", error);
+        return res.status(400).json({ error: 'Error fetching literacy rate' });
+    }
+});
+
 
 export default quizRouter;

@@ -16,6 +16,7 @@ import StudentTodos from './pages/StudentTodos';
 import Quiz from './pages/Quiz';
 import { UploadVideo} from './pages/UploadVideo';
 import Videos from './pages/Videos';
+import InvestmentInput from './pages/InvestmentInput';
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
         <Route path ="quiz" element={<Quiz/>} />
         <Route path="post-video" element={<UploadVideo/>} />
         <Route path='video' element={<Videos/>} />
+        <Route path ="/quiz" element={<Quiz/>} />
+        <Route path ="/investment" element={<InvestmentInput/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -3,6 +3,7 @@ import Heading from '../components/Heading';
 import SubHeading from '../components/SubHeading';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import InvestmentInput from './InvestmentInput';
 
 export default function Expense() {
     const [expenses, setExpenses] = useState([]);
@@ -162,9 +163,9 @@ export default function Expense() {
                     <div className='mt-4 flex justify-center'>
                         <button
                             className='bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300'
-                            onClick={() => navigate('/rewards')}
+                            onClick={() => navigate('/investment')}
                         >
-                            Claim your reward!
+                            Get your investment plan!
                         </button>
                     </div>
                 </div>
