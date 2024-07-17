@@ -33,7 +33,10 @@ const StudentSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    
+    videos:[{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:'Video'
+    }]
 });
 
 const studentModel= mongoose.model('Student',StudentSchema);

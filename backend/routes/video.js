@@ -5,6 +5,7 @@ import { studentMiddleware } from '../middlewares/student.js';
 import { v2 as cloudinary } from 'cloudinary';
 import dotenv from 'dotenv';
 import fs from 'fs';
+import studentModel from '../models/student.model.js';
 
 dotenv.config();
 cloudinary.config({
@@ -74,6 +75,35 @@ videoRouter.get('/', async (req, res) => {
     } catch (error) {
         console.error("Error fetching videos:", error);
         res.status(400).json({ error: 'Error fetching videos' });
+    }
+});
+
+
+videoRouter.post('/buy-video', studentMiddleware, async (req, res) => {
+    try {
+        const videoId = req.body.videoId;
+        const studentId = req.userId;
+        const video = await videoModel.findById(videoId);
+        if (!video) {
+            return res.status(404).json({ error: 'Video not found' });
+        }
+
+        const student = await studentModel.findById(studentId);
+        if (!student) {
+            return res.status(404).json({ error: 'Student not found' });
+        }
+        
+        if (student.virtualCurrency < video.point) {
+            return res.status(400).json({ error: 'Insufficient virtual currency' });
+        }
+        
+        student.virtualCurrency -= video.point;
+        student.videos.push(videoId);
+        await student.save();
+        res.status(200).json({ msg: 'Video purchased successfully' });
+    } catch (error) {
+        console.error("Error buying video:", error);
+        res.status(400).json({ error: 'Error buying video' });
     }
 });
 export default videoRouter;

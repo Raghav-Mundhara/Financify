@@ -54,6 +54,23 @@ todoRouter.put('/update/:studentID/:id',ngoMiddleware,async (req,res)=>{
             points:req.body.points,
             completed:req.body.completed
         },{new:true});
+        if(todo.completed){
+            const student=await studentModel.findOneAndUpdate({
+                _id:req.params.studentID
+            },{
+                $inc:{
+                    virtualCurrency:todo.points
+                }
+            },{new:true})
+        }else{
+            const student=await studentModel.findOneAndUpdate({
+                _id:req.params.studentID
+            },{
+                $inc:{
+                    virtualCurrency:-todo.points
+                }
+            },{new:true})
+        }
         return res.status(200).json(todo);
     } catch (error) {
         return res.status(400).json({error:"Error"})

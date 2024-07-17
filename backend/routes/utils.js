@@ -1,6 +1,7 @@
 import express from "express"
 import ngoModel from "../models/ngo.model.js";
 import studentModel from "../models/student.model.js";
+import { studentMiddleware } from "../middlewares/student.js";
 const utilRouter = express.Router();
 
 utilRouter.get("/ngos",async(req,res)=>{
@@ -44,4 +45,15 @@ utilRouter.get("/ngo/:id",async(req,res)=>{
     }
 })
 
+utilRouter.get('/currentUser',studentMiddleware, async (req, res) => {
+    try {
+        const student = await studentModel.findById(req.userId);
+        if (!student) {
+            return res.status(404).json({ error: 'Student not found' });
+        }
+        return res.status(200).json(student);
+    } catch (error) {
+        return res.status(400).json({ error: 'Error fetching student' });
+    }
+})
 export default utilRouter;
