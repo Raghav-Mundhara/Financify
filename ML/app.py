@@ -58,7 +58,7 @@ data = {
     'risk': risk_data,
     'income': income_data_numerical,
     'roi': roi_data,
-    'literacy': literacy_data,
+    'literacyRate': literacy_data,
     'investin': investin_data
 }
 

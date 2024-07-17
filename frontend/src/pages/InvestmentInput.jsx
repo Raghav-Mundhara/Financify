@@ -3,85 +3,102 @@ import axios from 'axios';
 
 const InvestmentInput = () => {
     const [income, setIncome] = useState('');
-    const [risk, setRisk] = useState('Low'); // Set default values for select options
-    const [roi, setRoi] = useState('Low'); // Set default values for select options
+    const [risk, setRisk] = useState('Low'); 
+    const [roi, setRoi] = useState('Low'); 
     const [message, setMessage] = useState('');
+    const [prediction, setPrediction] = useState(''); 
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-
+    
         try {
-            const response = await axios.get('http://localhost:3000/quiz/literacy-rate', {
+            const quizResponse = await axios.get('http://localhost:3000/quiz/literacy-rate', {
                 headers: {
                     'Authorization': `${localStorage.getItem('token')}`
                 }
             }); 
-            if (response.status === 204) { // Assuming 204 No Content is returned if the quiz is not completed
+            if (quizResponse.status === 204) {
                 setMessage('Please complete the quiz first.');
                 return;
             }
-            const literacyRate = response.data.literacyRate;
-
+            const literacyRate = quizResponse.data.literacyRate;
+    
             const investmentData = {
                 income,
                 risk,
                 roi,
                 literacyRate
             };
-
-            await axios.post('http://localhost:3000/investment', investmentData, {
+    
+            const investmentResponse = await axios.post('http://127.0.0.1:5000/predict', investmentData, {
                 headers: {
                     'Authorization': `${localStorage.getItem('token')}`
                 }
             });
-
-            setMessage('Investment data saved successfully!');
+    
+            if (investmentResponse.data.prediction) {
+                setPrediction(investmentResponse.data.prediction);
+                setMessage('Investment data saved successfully!');
+            } else {
+                setMessage('Investment data saved successfully, but failed to get a prediction.');
+            }
         } catch (error) {
             console.error('Error saving investment data:', error);
-            setMessage('Failed to save investment data.');
+            setMessage(`Failed to save investment data: ${error.response?.data?.error || error.message}`);
         }
     };
-
+    
     return (
-        <div>
-            <h1>Investment Input</h1>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label>Income:</label>
-                    <input
-                        type="text"
-                        value={income}
-                        onChange={(e) => setIncome(e.target.value)}
-                        required
-                    />
-                </div>
-                <div>
-                    <label>Risk Level:</label>
-                    <select
-                        value={risk}
-                        onChange={(e) => setRisk(e.target.value)}
-                        required
+        <div className='min-h-screen bg-navy-dark flex items-center justify-center'>
+            <div className='bg-white rounded-lg p-8 shadow-lg max-w-md w-full'>
+                <h1 className='text-2xl font-bold mb-4'>Investment Input</h1>
+                <form onSubmit={handleSubmit} className='space-y-4'>
+                    <div>
+                        <label className='block mb-1'>Income:</label>
+                        <input
+                            type="text"
+                            value={income}
+                            onChange={(e) => setIncome(e.target.value)}
+                            required
+                            className='p-2 border rounded w-full'
+                        />
+                    </div>
+                    <div>
+                        <label className='block mb-1'>Risk Level:</label>
+                        <select
+                            value={risk}
+                            onChange={(e) => setRisk(e.target.value)}
+                            required
+                            className='p-2 border rounded w-full'
+                        >
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label className='block mb-1'>Expected ROI:</label>
+                        <select
+                            value={roi}
+                            onChange={(e) => setRoi(e.target.value)}
+                            required
+                            className='p-2 border rounded w-full'
+                        >
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                        </select>
+                    </div>
+                    <button
+                        type="submit"
+                        className='bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300 w-full'
                     >
-                        <option value="Low">Low</option>
-                        <option value="Medium">Medium</option>
-                        <option value="High">High</option>
-                    </select>
-                </div>
-                <div>
-                    <label>Expected ROI:</label>
-                    <select
-                        value={roi}
-                        onChange={(e) => setRoi(e.target.value)}
-                        required
-                    >
-                        <option value="Low">Low</option>
-                        <option value="Medium">Medium</option>
-                        <option value="High">High</option>
-                    </select>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-            {message && <p>{message}</p>}
+                        Submit
+                    </button>
+                </form>
+                {message && <p className='mt-4'>{message}</p>}
+                {prediction && <p className='mt-4'>Prediction: {prediction}</p>}
+            </div>
         </div>
     );
 };
