@@ -74,18 +74,19 @@ studentRouter.post("/signin", async (req, res) => {
                 email: req.body.email,
                 password: req.body.password
             });
-
+            
             if (!student) {
                 return res.status(400).json({ msg: "Invalid Credentials" });
             }
             if(!student.ngo){
                 return res.status(400).json({msg:"NGO not approved your request yet"});
             }
+            console.log(student._id);
             const token = jwt.sign({ id: student._id }, process.env.JWT_SECRET);
             req.headers.authorization = token;
             return res.status(200).json({ msg: "SignIn Success", token });
         } catch (err) {
-            return res.status(400).json({ err });
+            return res.status(400).json(err);
         }
     } else {
         return res.status(400).json({ msg: "Invalid Data" });

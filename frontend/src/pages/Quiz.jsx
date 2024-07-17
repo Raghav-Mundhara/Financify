@@ -64,35 +64,45 @@ const Quiz = () => {
     };
 
     return (
-        <div>
-            <h1>Quiz</h1>
-            <form onSubmit={handleSubmit}>
-                {questions.map(question => (
-                    <div key={question._id}>
-                        <h3>{question.question}</h3>
-                        {question.options.map(option => (
-                            <div key={option}>
-                                <label>
-                                    <input
-                                        type="radio"
-                                        name={question._id}
-                                        value={option}
-                                        onChange={() => handleOptionChange(question._id, option)}
-                                    />
-                                    {option}
-                                </label>
-                            </div>
-                        ))}
+        <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
+            <div className="bg-white max-w-2xl w-full p-8 rounded-lg shadow-lg">
+                <h1 className="text-3xl font-bold mb-6 text-center">Quiz</h1>
+                <form onSubmit={handleSubmit}>
+                    {questions.map(question => (
+                        <div key={question._id} className="mb-6">
+                            <h3 className="text-xl font-semibold mb-2">{question.question}</h3>
+                            {question.options.map(option => (
+                                <div key={option} className="mb-2">
+                                    <label className="flex items-center">
+                                        <input
+                                            type="radio"
+                                            name={question._id}
+                                            value={option}
+                                            onChange={() => handleOptionChange(question._id, option)}
+                                            className="mr-2"
+                                        />
+                                        {option}
+                                    </label>
+                                </div>
+                            ))}
+                        </div>
+                    ))}
+                    <div className="flex justify-center">
+                        <button
+                            type="submit"
+                            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
+                        >
+                            Submit
+                        </button>
                     </div>
-                ))}
-                <button type="submit">Submit</button>
-            </form>
-            {score !== null && (
-                <div>
-                    <h2>Your Score: {score}</h2>
-                    <h3>Literacy Rate: {literacyRate}</h3>
-                </div>
-            )}
+                </form>
+                {score !== null && (
+                    <div className="mt-6 text-center">
+                        <h2 className="text-2xl font-bold">Your Score: {score}</h2>
+                        <h3 className="text-xl">Literacy Rate: {literacyRate}</h3>
+                    </div>
+                )}
+            </div>
         </div>
     );
 };
