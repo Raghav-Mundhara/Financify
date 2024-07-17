@@ -20,7 +20,9 @@ const VideoSchema = new mongoose.Schema({
     point: {
         type: Number,
         required: true,
-    }
+    },
+},{
+    timestamps: true
 });
 
 const videoModel = new mongoose.model("Video", VideoSchema);

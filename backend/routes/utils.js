@@ -16,7 +16,7 @@ utilRouter.get("/ngos",async(req,res)=>{
 
 utilRouter.get("/students",async(req,res)=>{
     try{
-        const students=await ngoModel.find();
+        const students=await studentModel.find();
         // console.log(students);
         return res.status(200).json(students);
     }catch(err){

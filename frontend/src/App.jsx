@@ -14,6 +14,8 @@ import Rewards from './pages/Rewards';
 import NgoStudent from './pages/NgoStudent';
 import StudentTodos from './pages/StudentTodos';
 import Quiz from './pages/Quiz';
+import { UploadVideo} from './pages/UploadVideo';
+import Videos from './pages/Videos';
 import InvestmentInput from './pages/InvestmentInput';
 
 function App() {
@@ -32,6 +34,9 @@ function App() {
         <Route path='/rewards' element={<Rewards />} />
         <Route path="/student/:id" element={<NgoStudent/>} />
         <Route path="/student-todos/:id" element={<StudentTodos/>} />
+        <Route path ="quiz" element={<Quiz/>} />
+        <Route path="post-video" element={<UploadVideo/>} />
+        <Route path='video' element={<Videos/>} />
         <Route path ="/quiz" element={<Quiz/>} />
         <Route path ="/investment" element={<InvestmentInput/>} />
       </Routes>
