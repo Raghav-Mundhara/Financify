@@ -26,7 +26,7 @@ function LandingPage() {
   };
 
   return (
-    <div className="bg-navy bg-cover bg-center h-screen flex justify-center items-center" style={{ backgroundImage: 'url("path-to-your-background-image.jpg")' }}>
+    <div className="bg-navy bg-cover bg-center h-screen flex justify-center items-center" >
       <div className="bg-white bg-opacity-90 p-12 rounded-lg text-center shadow-lg max-w-md mx-auto">
         <h1 className="text-4xl font-bold mb-6 text-navy">Financify</h1>
         <div className="mb-6">

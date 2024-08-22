@@ -22,7 +22,7 @@ function NgoHeader(props) {
                     <div>
                         <button className='text-md' onClick={()=>{
                             localStorage.removeItem('token');
-                            navigate('/signin-ngo');
+                            navigate('/');
                         }}>
                             Logout
                         </button>

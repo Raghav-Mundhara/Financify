@@ -16,7 +16,6 @@ cloudinary.config({
 
 const videoRouter = express.Router();
 
-// Multer setup for handling file uploads
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, 'uploads/');
@@ -27,18 +26,15 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage });
 
-// Endpoint for uploading video
 videoRouter.post('/upload', studentMiddleware, upload.single('video'), async (req, res) => {
     try {
         const { title, description } = req.body;
         const video = req.file;
 
-        // Check if the file exists
         if (!video) {
             return res.status(400).json({ error: 'No video file uploaded' });
         }
 
-        // Ensure the file is a valid video format
         const validFormats = ['video/mp4', 'video/webm', 'video/ogg'];
         if (!validFormats.includes(video.mimetype)) {
             return res.status(400).json({ error: 'Unsupported video format' });
@@ -67,7 +63,6 @@ videoRouter.post('/upload', studentMiddleware, upload.single('video'), async (re
     }
 });
 
-// Endpoint for fetching all videos
 videoRouter.get('/', async (req, res) => {
     try {
         const videos = await videoModel.find();
